@@ -1,0 +1,6 @@
+# Numeriq – Practical Online Calculators & Knowledge Hub
+
+User-agent: *
+Allow: /
+
+Sitemap: https://numeriq.web.app/sitemap.xml

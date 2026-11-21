@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom scrollbar & typography helpers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 3px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.4);
+}
+
+/* Print Styles: Hide navigation, footer, and peripheral chrome on calculator exports */
+@media print {
+  header.sticky,
+  nav,
+  footer,
+  [data-calculator-actions],
+  [data-calculator-sidebar],
+  [data-calculator-non-tool] {
+    display: none !important;
+  }
+
+  html,
+  body,
+  #root,
+  #root > div {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    min-height: auto !important;
+  }
+
+  [data-calculator-page] {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  [data-calculator-grid] {
+    display: block !important;
+  }
+
+  [data-calculator-main] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  [data-calculator-tool] {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

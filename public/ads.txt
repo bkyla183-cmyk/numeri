@@ -1,0 +1,3 @@
+# Google AdSense ads.txt for Numeriq
+# Verified publisher record must be added here upon formal Google AdSense account approval.
+# Format: google.com, [YOUR-PUBLISHER-ID], DIRECT, f08c47fec0942fa0

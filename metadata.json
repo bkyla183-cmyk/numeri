@@ -1,0 +1,6 @@
+{
+  "name": "Numeriq – Practical Online Calculators & Clear Answers",
+  "description": "Calculate mortgages, loans, compound interest, taxes, BMI, calories, GPA, statistics, and unit conversions with Numeriq. Curated double-precision online calculators with clear formulas and guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

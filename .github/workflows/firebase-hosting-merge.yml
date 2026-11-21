@@ -1,0 +1,53 @@
+name: Deploy Numeriq to Firebase Hosting (Live)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build_and_deploy:
+    name: Build, Verify & Deploy to Firebase Hosting
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: TypeScript check
+        run: npm run lint
+
+      - name: Build production bundle & prerender pages
+        env:
+          SITE_URL: https://numeriq.web.app
+        run: npm run build:production
+
+      - name: Run calculator verification tests
+        run: npm run test
+
+      - name: Run SEO & quality audits
+        env:
+          SITE_URL: https://numeriq.web.app
+        run: |
+          npx tsx scripts/verify-seo-infrastructure.ts
+          npx tsx scripts/audit-expansion-quality.ts
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_NUMERIQ_87EB5 }}
+          channelId: live
+          projectId: numeriq-87eb5

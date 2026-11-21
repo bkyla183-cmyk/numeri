@@ -1,0 +1,2822 @@
+[
+  {
+    "slug": "percentage-calculator",
+    "name": "Percentage Calculator",
+    "cat": "math",
+    "formula": "(Part ÷ Whole) × 100"
+  },
+  {
+    "slug": "fraction-calculator",
+    "name": "Fraction Calculator",
+    "cat": "math",
+    "formula": "a/b ± c/d = (ad ± bc)/bd"
+  },
+  {
+    "slug": "decimal-calculator",
+    "name": "Decimal Calculator",
+    "cat": "math",
+    "formula": "Decimal floating arithmetic"
+  },
+  {
+    "slug": "square-root-calculator",
+    "name": "Square Root Calculator",
+    "cat": "math",
+    "formula": "√x = x^(1/2)"
+  },
+  {
+    "slug": "cube-root-calculator",
+    "name": "Cube Root Calculator",
+    "cat": "math",
+    "formula": "∛x = x^(1/3)"
+  },
+  {
+    "slug": "exponent-calculator",
+    "name": "Exponent Calculator",
+    "cat": "math",
+    "formula": "x^y"
+  },
+  {
+    "slug": "logarithm-calculator",
+    "name": "Logarithm Calculator",
+    "cat": "math",
+    "formula": "log_b(x) = ln(x) ÷ ln(b)"
+  },
+  {
+    "slug": "factorial-calculator",
+    "name": "Factorial Calculator",
+    "cat": "math",
+    "formula": "n! = n × (n-1) × ... × 1"
+  },
+  {
+    "slug": "prime-number-checker",
+    "name": "Prime Number Checker",
+    "cat": "math",
+    "formula": "Trial division & primality test"
+  },
+  {
+    "slug": "lcm-calculator",
+    "name": "LCM Calculator",
+    "cat": "math",
+    "formula": "LCM(a, b) = (a × b) ÷ GCD(a, b)"
+  },
+  {
+    "slug": "gcd-calculator",
+    "name": "GCD Calculator",
+    "cat": "math",
+    "formula": "Euclidean Algorithm"
+  },
+  {
+    "slug": "absolute-value-calculator",
+    "name": "Absolute Value Calculator",
+    "cat": "math",
+    "formula": "|x| = x if x≥0, -x if x<0"
+  },
+  {
+    "slug": "rounding-calculator",
+    "name": "Rounding Calculator",
+    "cat": "math",
+    "formula": "Standard round half up"
+  },
+  {
+    "slug": "significant-figures-calculator",
+    "name": "Significant Figures Calculator",
+    "cat": "math",
+    "formula": "Scientific precision rules"
+  },
+  {
+    "slug": "scientific-notation-calculator",
+    "name": "Scientific Notation Calculator",
+    "cat": "math",
+    "formula": "a × 10^b"
+  },
+  {
+    "slug": "ratio-calculator",
+    "name": "Ratio Calculator",
+    "cat": "math",
+    "formula": "A : B = (A÷k) : (B÷k)"
+  },
+  {
+    "slug": "proportion-calculator",
+    "name": "Proportion Calculator",
+    "cat": "math",
+    "formula": "a/b = c/d → a·d = b·c"
+  },
+  {
+    "slug": "average-calculator",
+    "name": "Average Calculator",
+    "cat": "math",
+    "formula": "Mean = (Σx) ÷ N"
+  },
+  {
+    "slug": "median-calculator",
+    "name": "Median Calculator",
+    "cat": "math",
+    "formula": "Middle value of sorted set"
+  },
+  {
+    "slug": "mode-calculator",
+    "name": "Mode Calculator",
+    "cat": "math",
+    "formula": "Most frequent observation"
+  },
+  {
+    "slug": "standard-deviation-calculator",
+    "name": "Standard Deviation Calculator",
+    "cat": "math",
+    "formula": "s = √[Σ(x-μ)² ÷ (N-1)]"
+  },
+  {
+    "slug": "variance-calculator",
+    "name": "Variance Calculator",
+    "cat": "math",
+    "formula": "s² = Σ(x-μ)² ÷ (N-1)"
+  },
+  {
+    "slug": "mean-calculator",
+    "name": "Mean Calculator",
+    "cat": "math",
+    "formula": "Arithmetic, Geometric, Harmonic"
+  },
+  {
+    "slug": "number-base-converter",
+    "name": "Number Base Converter",
+    "cat": "math",
+    "formula": "Base positional weighting"
+  },
+  {
+    "slug": "roman-numeral-converter",
+    "name": "Roman Numeral Converter",
+    "cat": "math",
+    "formula": "Subtractive Roman Notation"
+  },
+  {
+    "slug": "loan-calculator",
+    "name": "Loan Calculator",
+    "cat": "finance",
+    "formula": "M = P[r(1+r)^n] / [(1+r)^n - 1]"
+  },
+  {
+    "slug": "mortgage-calculator",
+    "name": "Mortgage Calculator",
+    "cat": "finance",
+    "formula": "Amortizing PITI Formula"
+  },
+  {
+    "slug": "compound-interest-calculator",
+    "name": "Compound Interest Calculator",
+    "cat": "finance",
+    "formula": "A = P(1 + r/n)^(nt)"
+  },
+  {
+    "slug": "simple-interest-calculator",
+    "name": "Simple Interest Calculator",
+    "cat": "finance",
+    "formula": "I = P × r × t"
+  },
+  {
+    "slug": "emi-calculator",
+    "name": "EMI Calculator",
+    "cat": "finance",
+    "formula": "EMI = P · r · (1+r)^n / ((1+r)^n - 1)"
+  },
+  {
+    "slug": "investment-calculator",
+    "name": "Investment Calculator",
+    "cat": "finance",
+    "formula": "FV = PV(1+r)^t + PMT[...]"
+  },
+  {
+    "slug": "savings-calculator",
+    "name": "Savings Calculator",
+    "cat": "finance",
+    "formula": "Compound Savings Formula"
+  },
+  {
+    "slug": "retirement-calculator",
+    "name": "Retirement Calculator",
+    "cat": "finance",
+    "formula": "Nest Egg = Annual Expenses × 25"
+  },
+  {
+    "slug": "roi-calculator",
+    "name": "ROI Calculator",
+    "cat": "finance",
+    "formula": "ROI = (Net Profit ÷ Cost) × 100"
+  },
+  {
+    "slug": "profit-margin-calculator",
+    "name": "Profit Margin Calculator",
+    "cat": "finance",
+    "formula": "Margin = (Revenue - Cost) ÷ Revenue"
+  },
+  {
+    "slug": "break-even-calculator",
+    "name": "Break Even Calculator",
+    "cat": "finance",
+    "formula": "Break-Even = Fixed Costs ÷ (Price - Variable Cost)"
+  },
+  {
+    "slug": "net-present-value-calculator",
+    "name": "Net Present Value Calculator",
+    "cat": "finance",
+    "formula": "NPV = Σ [CF_t / (1+r)^t] - C_0"
+  },
+  {
+    "slug": "future-value-calculator",
+    "name": "Future Value Calculator",
+    "cat": "finance",
+    "formula": "FV = PV × (1 + r)^n"
+  },
+  {
+    "slug": "present-value-calculator",
+    "name": "Present Value Calculator",
+    "cat": "finance",
+    "formula": "PV = FV ÷ (1 + r)^n"
+  },
+  {
+    "slug": "annuity-calculator",
+    "name": "Annuity Calculator",
+    "cat": "finance",
+    "formula": "Annuity Present/Future Value"
+  },
+  {
+    "slug": "bond-calculator",
+    "name": "Bond Calculator",
+    "cat": "finance",
+    "formula": "Bond Pricing Formula"
+  },
+  {
+    "slug": "stock-return-calculator",
+    "name": "Stock Return Calculator",
+    "cat": "finance",
+    "formula": "Total Return = (Gain + Dividends) ÷ Buy Price"
+  },
+  {
+    "slug": "dividend-calculator",
+    "name": "Dividend Calculator",
+    "cat": "finance",
+    "formula": "Dividend Yield = Annual Dividend ÷ Share Price"
+  },
+  {
+    "slug": "inflation-calculator",
+    "name": "Inflation Calculator",
+    "cat": "finance",
+    "formula": "Adjusted Value = Price × (1 + i)^t"
+  },
+  {
+    "slug": "currency-converter",
+    "name": "Currency Converter",
+    "cat": "finance",
+    "formula": "Target = Base × Exchange Rate"
+  },
+  {
+    "slug": "exchange-rate-calculator",
+    "name": "Exchange Rate Calculator",
+    "cat": "finance",
+    "formula": "Spread = (Ask - Bid) ÷ Midpoint"
+  },
+  {
+    "slug": "budget-calculator",
+    "name": "Budget Calculator",
+    "cat": "finance",
+    "formula": "50% Needs, 30% Wants, 20% Savings"
+  },
+  {
+    "slug": "debt-payoff-calculator",
+    "name": "Debt Payoff Calculator",
+    "cat": "finance",
+    "formula": "Snowball vs Avalanche Matrix"
+  },
+  {
+    "slug": "credit-card-payoff-calculator",
+    "name": "Credit Card Payoff Calculator",
+    "cat": "finance",
+    "formula": "Credit Card Amortization"
+  },
+  {
+    "slug": "car-loan-calculator",
+    "name": "Car Loan Calculator",
+    "cat": "finance",
+    "formula": "Auto Loan Amortization"
+  },
+  {
+    "slug": "apr-to-apy-converter",
+    "name": "APR to APY Converter",
+    "cat": "finance",
+    "formula": "APY = (1 + APR/n)^n - 1"
+  },
+  {
+    "slug": "amortization-calculator",
+    "name": "Amortization Calculator",
+    "cat": "finance",
+    "formula": "Payment Split Breakdown"
+  },
+  {
+    "slug": "down-payment-calculator",
+    "name": "Down Payment Calculator",
+    "cat": "finance",
+    "formula": "Down % = Down $ ÷ Home Price"
+  },
+  {
+    "slug": "home-equity-calculator",
+    "name": "Home Equity Calculator",
+    "cat": "finance",
+    "formula": "Equity = Market Value - Mortgage Balance"
+  },
+  {
+    "slug": "refinance-calculator",
+    "name": "Mortgage Refinance Calculator",
+    "cat": "finance",
+    "formula": "Break-Even = Closing Costs ÷ Monthly Savings"
+  },
+  {
+    "slug": "bmi-calculator",
+    "name": "BMI Calculator",
+    "cat": "health-fitness",
+    "formula": "BMI = weight (kg) ÷ height (m)²"
+  },
+  {
+    "slug": "calorie-calculator",
+    "name": "Calorie & TDEE Calculator",
+    "cat": "health-fitness",
+    "formula": "Mifflin-St Jeor: BMR × Multiplier"
+  },
+  {
+    "slug": "body-fat-calculator",
+    "name": "Body Fat Calculator",
+    "cat": "health-fitness",
+    "formula": "US Navy Body Fat Equations"
+  },
+  {
+    "slug": "target-heart-rate-calculator",
+    "name": "Target Heart Rate Calculator",
+    "cat": "health-fitness",
+    "formula": "Target HR = ((MHR - RHR) × Intensity) + RHR"
+  },
+  {
+    "slug": "ideal-weight-calculator",
+    "name": "Ideal Weight Calculator",
+    "cat": "health-fitness",
+    "formula": "Devine IBW Equation"
+  },
+  {
+    "slug": "water-intake-calculator",
+    "name": "Water Intake Calculator",
+    "cat": "health-fitness",
+    "formula": "Water = Weight (kg) × 0.033 L"
+  },
+  {
+    "slug": "macronutrient-calculator",
+    "name": "Macronutrient Calculator",
+    "cat": "health-fitness",
+    "formula": "Macro caloric distribution"
+  },
+  {
+    "slug": "bmr-calculator",
+    "name": "BMR Calculator",
+    "cat": "health-fitness",
+    "formula": "Mifflin-St Jeor BMR"
+  },
+  {
+    "slug": "lean-body-mass-calculator",
+    "name": "Lean Body Mass Calculator",
+    "cat": "health-fitness",
+    "formula": "LBM = Total Weight - Fat Mass"
+  },
+  {
+    "slug": "calorie-burn-calculator",
+    "name": "Calorie Burn Calculator",
+    "cat": "health-fitness",
+    "formula": "Calories = MET × Weight(kg) × Time(hours)"
+  },
+  {
+    "slug": "one-rep-max-calculator",
+    "name": "One Rep Max (1RM) Calculator",
+    "cat": "health-fitness",
+    "formula": "1RM = Weight × (1 + Reps/30)"
+  },
+  {
+    "slug": "walking-calorie-calculator",
+    "name": "Walking Calorie Calculator",
+    "cat": "health-fitness",
+    "formula": "Cal = Pace Factor × Weight × Miles"
+  },
+  {
+    "slug": "steps-to-distance-calculator",
+    "name": "Steps to Miles / Km Calculator",
+    "cat": "health-fitness",
+    "formula": "Distance = Steps × Stride Length"
+  },
+  {
+    "slug": "absi-calculator",
+    "name": "A Body Shape Index (ABSI)",
+    "cat": "health-fitness",
+    "formula": "ABSI = WC ÷ (BMI^(2/3) × Height^(1/2))"
+  },
+  {
+    "slug": "waist-to-hip-ratio-calculator",
+    "name": "Waist-to-Hip Ratio (WHR)",
+    "cat": "health-fitness",
+    "formula": "WHR = Waist Circumference ÷ Hip Circumference"
+  },
+  {
+    "slug": "waist-to-height-ratio-calculator",
+    "name": "Waist-to-Height Ratio (WHtR)",
+    "cat": "health-fitness",
+    "formula": "WHtR = Waist ÷ Height"
+  },
+  {
+    "slug": "intermittent-fasting-calculator",
+    "name": "Intermittent Fasting Timer",
+    "cat": "health-fitness",
+    "formula": "Fasting Window Schedule"
+  },
+  {
+    "slug": "protein-intake-calculator",
+    "name": "Protein Intake Calculator",
+    "cat": "health-fitness",
+    "formula": "1.6g - 2.2g per kg body weight"
+  },
+  {
+    "slug": "daily-fiber-calculator",
+    "name": "Daily Fiber Calculator",
+    "cat": "health-fitness",
+    "formula": "14g per 1,000 kcal consumed"
+  },
+  {
+    "slug": "vo2-max-calculator",
+    "name": "VO2 Max Estimator",
+    "cat": "health-fitness",
+    "formula": "VO2 Max = 15.3 × (MHR ÷ RHR)"
+  },
+  {
+    "slug": "blood-alcohol-content-calculator",
+    "name": "Blood Alcohol Content (BAC)",
+    "cat": "health-fitness",
+    "formula": "Widmark BAC Equation"
+  },
+  {
+    "slug": "smoking-cost-calculator",
+    "name": "Smoking Cost & Health Recovery",
+    "cat": "health-fitness",
+    "formula": "Packs per day × Price × Days"
+  },
+  {
+    "slug": "sleep-cycle-calculator",
+    "name": "Sleep Cycle Calculator",
+    "cat": "health-fitness",
+    "formula": "Wake Time = Bedtime + (n × 90 min) + 15 min"
+  },
+  {
+    "slug": "glycemic-load-calculator",
+    "name": "Glycemic Load Calculator",
+    "cat": "health-fitness",
+    "formula": "GL = (GI × Available Carbs) ÷ 100"
+  },
+  {
+    "slug": "heart-rate-reserve-calculator",
+    "name": "Heart Rate Reserve (HRR)",
+    "cat": "health-fitness",
+    "formula": "HRR = Max HR - Resting HR"
+  },
+  {
+    "slug": "calorie-deficit-calculator",
+    "name": "Calorie Deficit Calculator",
+    "cat": "health-fitness",
+    "formula": "Days = (Target lbs × 3500) ÷ Daily Deficit"
+  },
+  {
+    "slug": "electrolyte-calculator",
+    "name": "Hydration Electrolyte Sizer",
+    "cat": "health-fitness",
+    "formula": "Sweat Loss × Electrolyte Concentration"
+  },
+  {
+    "slug": "pregnancy-weight-gain-calculator",
+    "name": "Pregnancy Weight Gain",
+    "cat": "health-fitness",
+    "formula": "IOM Guidelines by Trimester"
+  },
+  {
+    "slug": "keto-macro-calculator",
+    "name": "Keto Diet Macro Calculator",
+    "cat": "health-fitness",
+    "formula": "Ketogenic Energy Distribution"
+  },
+  {
+    "slug": "maximum-heart-rate-calculator",
+    "name": "Maximum Heart Rate Calculator",
+    "cat": "health-fitness",
+    "formula": "MHR = 208 - (0.7 × Age)"
+  },
+  {
+    "slug": "velocity-calculator",
+    "name": "Velocity Calculator",
+    "cat": "science-physics",
+    "formula": "v = Δx ÷ Δt"
+  },
+  {
+    "slug": "acceleration-calculator",
+    "name": "Acceleration Calculator",
+    "cat": "science-physics",
+    "formula": "a = (v_f - v_i) ÷ t"
+  },
+  {
+    "slug": "force-calculator",
+    "name": "Force Calculator (F=ma)",
+    "cat": "science-physics",
+    "formula": "F = m × a"
+  },
+  {
+    "slug": "kinetic-energy-calculator",
+    "name": "Kinetic Energy Calculator",
+    "cat": "science-physics",
+    "formula": "KE = ½ m v²"
+  },
+  {
+    "slug": "potential-energy-calculator",
+    "name": "Potential Energy Calculator",
+    "cat": "science-physics",
+    "formula": "PE = m × g × h"
+  },
+  {
+    "slug": "work-power-calculator",
+    "name": "Work & Power Calculator",
+    "cat": "science-physics",
+    "formula": "W = F·d, P = W/t"
+  },
+  {
+    "slug": "free-fall-calculator",
+    "name": "Gravity & Free Fall Calculator",
+    "cat": "science-physics",
+    "formula": "v = g·t, d = ½ g t²"
+  },
+  {
+    "slug": "momentum-calculator",
+    "name": "Momentum & Impulse Calculator",
+    "cat": "science-physics",
+    "formula": "p = m × v, J = F × Δt"
+  },
+  {
+    "slug": "density-calculator",
+    "name": "Density Calculator",
+    "cat": "science-physics",
+    "formula": "ρ = m ÷ V"
+  },
+  {
+    "slug": "pressure-calculator",
+    "name": "Pressure & Hydraulic Force",
+    "cat": "science-physics",
+    "formula": "P = F ÷ A"
+  },
+  {
+    "slug": "torque-calculator",
+    "name": "Torque Calculator",
+    "cat": "science-physics",
+    "formula": "τ = r × F × sin(θ)"
+  },
+  {
+    "slug": "wave-speed-calculator",
+    "name": "Wave Speed & Frequency",
+    "cat": "science-physics",
+    "formula": "v = f × λ"
+  },
+  {
+    "slug": "ohms-law-calculator",
+    "name": "Ohm's Law Calculator",
+    "cat": "science-physics",
+    "formula": "V = I × R, P = V × I"
+  },
+  {
+    "slug": "electric-power-calculator",
+    "name": "Electric Power Calculator",
+    "cat": "science-physics",
+    "formula": "P = V × I = I²R = V²/R"
+  },
+  {
+    "slug": "projectile-motion-calculator",
+    "name": "Projectile Motion Calculator",
+    "cat": "science-physics",
+    "formula": "Range = (v² sin(2θ)) ÷ g"
+  },
+  {
+    "slug": "friction-calculator",
+    "name": "Friction Force Calculator",
+    "cat": "science-physics",
+    "formula": "F_f = μ × F_N"
+  },
+  {
+    "slug": "centripetal-force-calculator",
+    "name": "Centripetal Force Calculator",
+    "cat": "science-physics",
+    "formula": "F_c = (m v²) ÷ r"
+  },
+  {
+    "slug": "snells-law-calculator",
+    "name": "Snell's Law of Refraction",
+    "cat": "science-physics",
+    "formula": "n₁ sin(θ₁) = n₂ sin(θ₂)"
+  },
+  {
+    "slug": "doppler-effect-calculator",
+    "name": "Doppler Effect Calculator",
+    "cat": "science-physics",
+    "formula": "f = f₀ × (v ± v_o) ÷ (v ∓ v_s)"
+  },
+  {
+    "slug": "carnot-efficiency-calculator",
+    "name": "Carnot Engine Efficiency",
+    "cat": "science-physics",
+    "formula": "η = 1 - (T_cold ÷ T_hot)"
+  },
+  {
+    "slug": "molecular-weight-calculator",
+    "name": "Molecular Weight Calculator",
+    "cat": "science-chemistry",
+    "formula": "Molar Mass Sum of Elements"
+  },
+  {
+    "slug": "molarity-calculator",
+    "name": "Molarity Calculator",
+    "cat": "science-chemistry",
+    "formula": "M = moles ÷ liters"
+  },
+  {
+    "slug": "ph-calculator",
+    "name": "pH and pOH Calculator",
+    "cat": "science-chemistry",
+    "formula": "pH = -log₁₀[H⁺]"
+  },
+  {
+    "slug": "dilution-calculator",
+    "name": "Solution Dilution Calculator",
+    "cat": "science-chemistry",
+    "formula": "M₁V₁ = M₂V₂"
+  },
+  {
+    "slug": "ideal-gas-law-calculator",
+    "name": "Ideal Gas Law Calculator",
+    "cat": "science-chemistry",
+    "formula": "PV = nRT"
+  },
+  {
+    "slug": "percent-composition-calculator",
+    "name": "Percent Composition Calculator",
+    "cat": "science-chemistry",
+    "formula": "% = (Mass of Element ÷ Total Mass) × 100"
+  },
+  {
+    "slug": "empirical-formula-calculator",
+    "name": "Empirical Formula Finder",
+    "cat": "science-chemistry",
+    "formula": "Simplest Whole Ratio of Moles"
+  },
+  {
+    "slug": "mole-to-gram-calculator",
+    "name": "Mole to Gram Converter",
+    "cat": "science-chemistry",
+    "formula": "Grams = Moles × Molar Mass"
+  },
+  {
+    "slug": "half-life-calculator",
+    "name": "Radioactive Half-Life Decay",
+    "cat": "science-chemistry",
+    "formula": "N(t) = N₀ × (½)^(t / t_half)"
+  },
+  {
+    "slug": "concentration-calculator",
+    "name": "Solution Concentration (w/v %)",
+    "cat": "science-chemistry",
+    "formula": "% (w/v) = (grams solute ÷ mL solution) × 100"
+  },
+  {
+    "slug": "stoichiometry-calculator",
+    "name": "Stoichiometry Calculator",
+    "cat": "science-chemistry",
+    "formula": "Molar Reaction Ratios"
+  },
+  {
+    "slug": "boiling-point-elevation-calculator",
+    "name": "Boiling Point Elevation",
+    "cat": "science-chemistry",
+    "formula": "ΔT_b = i × K_b × m"
+  },
+  {
+    "slug": "osmotic-pressure-calculator",
+    "name": "Osmotic Pressure Calculator",
+    "cat": "science-chemistry",
+    "formula": "Π = i × M × R × T"
+  },
+  {
+    "slug": "enthalpy-calculator",
+    "name": "Reaction Enthalpy (ΔH)",
+    "cat": "science-chemistry",
+    "formula": "ΔH_rxn = Σ ΔH_f(products) - Σ ΔH_f(reactants)"
+  },
+  {
+    "slug": "beer-lambert-calculator",
+    "name": "Beer-Lambert Law (Absorbance)",
+    "cat": "science-chemistry",
+    "formula": "A = ε × b × c"
+  },
+  {
+    "slug": "population-growth-calculator",
+    "name": "Exponential Population Growth",
+    "cat": "science-biology",
+    "formula": "N(t) = N₀ × e^(r·t)"
+  },
+  {
+    "slug": "hardy-weinberg-calculator",
+    "name": "Hardy-Weinberg Equilibrium",
+    "cat": "science-biology",
+    "formula": "p² + 2pq + q² = 1"
+  },
+  {
+    "slug": "doubling-time-calculator",
+    "name": "Cell Doubling Time",
+    "cat": "science-biology",
+    "formula": "Doubling Time = ln(2) ÷ μ"
+  },
+  {
+    "slug": "punnett-square-calculator",
+    "name": "Punnett Square Probability",
+    "cat": "science-biology",
+    "formula": "Mendelian Genetic Cross"
+  },
+  {
+    "slug": "dna-molecular-weight-calculator",
+    "name": "DNA / RNA Molecular Weight",
+    "cat": "science-biology",
+    "formula": "Nucleotide Base MW Sum"
+  },
+  {
+    "slug": "cell-confluency-calculator",
+    "name": "Cell Confluency Calculator",
+    "cat": "science-biology",
+    "formula": "Seeding Density Formula"
+  },
+  {
+    "slug": "enzyme-kinetics-calculator",
+    "name": "Michaelis-Menten Enzyme Kinetics",
+    "cat": "science-biology",
+    "formula": "V = (V_max × [S]) ÷ (K_m + [S])"
+  },
+  {
+    "slug": "shannon-diversity-calculator",
+    "name": "Shannon Diversity Index (H)",
+    "cat": "science-biology",
+    "formula": "H = - Σ (p_i × ln(p_i))"
+  },
+  {
+    "slug": "ecological-footprint-calculator",
+    "name": "Ecological Footprint Sizer",
+    "cat": "science-biology",
+    "formula": "Biocapacity Consumption Index"
+  },
+  {
+    "slug": "generation-time-calculator",
+    "name": "Generation Time Calculator",
+    "cat": "science-biology",
+    "formula": "G = t ÷ (3.3 × log(N/N₀))"
+  },
+  {
+    "slug": "z-score-calculator",
+    "name": "Z-Score Calculator",
+    "cat": "statistics-probability",
+    "formula": "Z = (X - μ) ÷ σ"
+  },
+  {
+    "slug": "p-value-calculator",
+    "name": "P-Value Calculator",
+    "cat": "statistics-probability",
+    "formula": "Cumulative Normal Distribution"
+  },
+  {
+    "slug": "confidence-interval-calculator",
+    "name": "Confidence Interval Calculator",
+    "cat": "statistics-probability",
+    "formula": "CI = x̄ ± Z × (s ÷ √n)"
+  },
+  {
+    "slug": "standard-error-calculator",
+    "name": "Standard Error (SE) Calculator",
+    "cat": "statistics-probability",
+    "formula": "SE = s ÷ √n"
+  },
+  {
+    "slug": "permutations-calculator",
+    "name": "Permutations (nPr) Calculator",
+    "cat": "statistics-probability",
+    "formula": "nPr = n! ÷ (n - r)!"
+  },
+  {
+    "slug": "combinations-calculator",
+    "name": "Combinations (nCr) Calculator",
+    "cat": "statistics-probability",
+    "formula": "nCr = n! ÷ [r!(n - r)!]"
+  },
+  {
+    "slug": "binomial-distribution-calculator",
+    "name": "Binomial Probability Calculator",
+    "cat": "statistics-probability",
+    "formula": "P(X=k) = (nCr) p^k (1-p)^(n-k)"
+  },
+  {
+    "slug": "normal-distribution-calculator",
+    "name": "Normal Distribution CDF",
+    "cat": "statistics-probability",
+    "formula": "Gaussian Integral Approximation"
+  },
+  {
+    "slug": "poisson-distribution-calculator",
+    "name": "Poisson Distribution Calculator",
+    "cat": "statistics-probability",
+    "formula": "P(X=k) = (λ^k e^(-λ)) ÷ k!"
+  },
+  {
+    "slug": "chi-square-calculator",
+    "name": "Chi-Square Test Calculator",
+    "cat": "statistics-probability",
+    "formula": "χ² = Σ [(O - E)² ÷ E]"
+  },
+  {
+    "slug": "correlation-calculator",
+    "name": "Correlation Coefficient (Pearson r)",
+    "cat": "statistics-probability",
+    "formula": "Pearson r Formula"
+  },
+  {
+    "slug": "linear-regression-calculator",
+    "name": "Linear Regression Calculator",
+    "cat": "statistics-probability",
+    "formula": "y = mx + b"
+  },
+  {
+    "slug": "margin-of-error-calculator",
+    "name": "Margin of Error Calculator",
+    "cat": "statistics-probability",
+    "formula": "MOE = Z × √[p(1-p) ÷ n]"
+  },
+  {
+    "slug": "sample-size-calculator",
+    "name": "Sample Size Determination",
+    "cat": "statistics-probability",
+    "formula": "Cochran's Sample Equation"
+  },
+  {
+    "slug": "outlier-calculator",
+    "name": "Outlier Detector (1.5 × IQR)",
+    "cat": "statistics-probability",
+    "formula": "Tukey Outlier Method"
+  },
+  {
+    "slug": "geometric-mean-calculator",
+    "name": "Geometric Mean Calculator",
+    "cat": "statistics-probability",
+    "formula": "GM = (Π x_i)^(1/n)"
+  },
+  {
+    "slug": "harmonic-mean-calculator",
+    "name": "Harmonic Mean Calculator",
+    "cat": "statistics-probability",
+    "formula": "HM = n ÷ Σ(1 / x_i)"
+  },
+  {
+    "slug": "weighted-average-calculator",
+    "name": "Weighted Average Calculator",
+    "cat": "statistics-probability",
+    "formula": "x̄_w = (Σ w_i x_i) ÷ Σ w_i"
+  },
+  {
+    "slug": "bayes-theorem-calculator",
+    "name": "Bayes' Theorem Calculator",
+    "cat": "statistics-probability",
+    "formula": "P(A|B) = [P(B|A)P(A)] ÷ P(B)"
+  },
+  {
+    "slug": "odds-ratio-calculator",
+    "name": "Odds Ratio & Relative Risk",
+    "cat": "statistics-probability",
+    "formula": "OR = (ad) ÷ (bc)"
+  },
+  {
+    "slug": "triangle-area-calculator",
+    "name": "Triangle Area (Heron)",
+    "cat": "geometry",
+    "formula": "Area = √[s(s-a)(s-b)(s-c)]"
+  },
+  {
+    "slug": "circle-calculator",
+    "name": "Circle Area & Circumference",
+    "cat": "geometry",
+    "formula": "A = π r², C = 2 π r"
+  },
+  {
+    "slug": "rectangle-calculator",
+    "name": "Rectangle Area & Perimeter",
+    "cat": "geometry",
+    "formula": "A = L × W, d = √(L² + W²)"
+  },
+  {
+    "slug": "trapezoid-calculator",
+    "name": "Trapezoid Area Calculator",
+    "cat": "geometry",
+    "formula": "A = ½ (a + b) × h"
+  },
+  {
+    "slug": "parallelogram-calculator",
+    "name": "Parallelogram Area",
+    "cat": "geometry",
+    "formula": "A = b × h"
+  },
+  {
+    "slug": "polygon-area-calculator",
+    "name": "Regular Polygon Area",
+    "cat": "geometry",
+    "formula": "A = (n × s²) ÷ [4 tan(π/n)]"
+  },
+  {
+    "slug": "cylinder-calculator",
+    "name": "Cylinder Volume & Surface",
+    "cat": "geometry",
+    "formula": "V = π r² h, SA = 2πrh + 2πr²"
+  },
+  {
+    "slug": "sphere-calculator",
+    "name": "Sphere Volume & Surface Area",
+    "cat": "geometry",
+    "formula": "V = 4/3 π r³, SA = 4 π r²"
+  },
+  {
+    "slug": "cone-calculator",
+    "name": "Cone Volume & Slant Height",
+    "cat": "geometry",
+    "formula": "V = 1/3 π r² h"
+  },
+  {
+    "slug": "cube-calculator",
+    "name": "Cube Volume & Diagonal",
+    "cat": "geometry",
+    "formula": "V = s³, SA = 6 s²"
+  },
+  {
+    "slug": "rectangular-prism-calculator",
+    "name": "Rectangular Prism Volume",
+    "cat": "geometry",
+    "formula": "V = l × w × h"
+  },
+  {
+    "slug": "pyramid-calculator",
+    "name": "Pyramid Volume Calculator",
+    "cat": "geometry",
+    "formula": "V = 1/3 BaseArea × h"
+  },
+  {
+    "slug": "pythagorean-theorem-calculator",
+    "name": "Pythagorean Theorem",
+    "cat": "geometry",
+    "formula": "a² + b² = c²"
+  },
+  {
+    "slug": "distance-formula-calculator",
+    "name": "Distance Between 2 Points",
+    "cat": "geometry",
+    "formula": "d = √[(x₂-x₁)² + (y₂-y₁)²]"
+  },
+  {
+    "slug": "midpoint-calculator",
+    "name": "Midpoint Calculator",
+    "cat": "geometry",
+    "formula": "M = ((x₁+x₂)/2, (y₁+y₂)/2)"
+  },
+  {
+    "slug": "slope-calculator",
+    "name": "Slope of a Line Calculator",
+    "cat": "geometry",
+    "formula": "m = (y₂ - y₁) ÷ (x₂ - x₁)"
+  },
+  {
+    "slug": "circle-sector-calculator",
+    "name": "Circle Arc Length & Sector",
+    "cat": "geometry",
+    "formula": "Arc = r θ, Sector = ½ r² θ"
+  },
+  {
+    "slug": "ellipse-calculator",
+    "name": "Ellipse Area & Perimeter",
+    "cat": "geometry",
+    "formula": "A = π × a × b"
+  },
+  {
+    "slug": "torus-calculator",
+    "name": "Torus Volume & Surface",
+    "cat": "geometry",
+    "formula": "V = 2 π² R r²"
+  },
+  {
+    "slug": "hexagon-calculator",
+    "name": "Hexagon Area & Perimeter",
+    "cat": "geometry",
+    "formula": "A = (3√3 / 2) × s²"
+  },
+  {
+    "slug": "quadratic-formula-calculator",
+    "name": "Quadratic Formula Solver",
+    "cat": "algebra",
+    "formula": "x = (-b ± √(b² - 4ac)) ÷ 2a"
+  },
+  {
+    "slug": "linear-equation-calculator",
+    "name": "Linear Equation Solver",
+    "cat": "algebra",
+    "formula": "x = (c - b) ÷ a"
+  },
+  {
+    "slug": "system-of-equations-calculator",
+    "name": "System of 2 Equations",
+    "cat": "algebra",
+    "formula": "Cramer's Determinant Rule"
+  },
+  {
+    "slug": "polynomial-roots-calculator",
+    "name": "Polynomial Roots Estimator",
+    "cat": "algebra",
+    "formula": "Newton-Raphson Root Finding"
+  },
+  {
+    "slug": "factoring-calculator",
+    "name": "Factoring Polynomials",
+    "cat": "algebra",
+    "formula": "Factorization Methods"
+  },
+  {
+    "slug": "arithmetic-sequence-calculator",
+    "name": "Arithmetic Sequence Calculator",
+    "cat": "algebra",
+    "formula": "a_n = a₁ + (n-1)d, S_n = n/2(a₁+a_n)"
+  },
+  {
+    "slug": "geometric-sequence-calculator",
+    "name": "Geometric Sequence Calculator",
+    "cat": "algebra",
+    "formula": "a_n = a₁ · r^(n-1), S = a₁/(1-r)"
+  },
+  {
+    "slug": "matrix-determinant-calculator",
+    "name": "2x2 Matrix Determinant",
+    "cat": "algebra",
+    "formula": "det(A) = ad - bc"
+  },
+  {
+    "slug": "matrix-multiplication-calculator",
+    "name": "Matrix Addition & Multiplication",
+    "cat": "algebra",
+    "formula": "C_ij = Σ A_ik B_kj"
+  },
+  {
+    "slug": "slope-intercept-calculator",
+    "name": "Slope-Intercept Form (y=mx+b)",
+    "cat": "algebra",
+    "formula": "y = mx + b"
+  },
+  {
+    "slug": "complex-number-calculator",
+    "name": "Complex Number Calculator",
+    "cat": "algebra",
+    "formula": "z = a + bi, |z| = √(a² + b²)"
+  },
+  {
+    "slug": "exponential-growth-calculator",
+    "name": "Exponential Growth and Decay",
+    "cat": "algebra",
+    "formula": "y = a (1 ± r)^t"
+  },
+  {
+    "slug": "foil-calculator",
+    "name": "FOIL Binomial Multiplier",
+    "cat": "algebra",
+    "formula": "(a+b)(c+d) = ac + ad + bc + bd"
+  },
+  {
+    "slug": "synthetic-division-calculator",
+    "name": "Synthetic Division Calculator",
+    "cat": "algebra",
+    "formula": "Synthetic Division Algorithm"
+  },
+  {
+    "slug": "binomial-expansion-calculator",
+    "name": "Binomial Expansion Calculator",
+    "cat": "algebra",
+    "formula": "Σ (nCr) a^(n-k) b^k"
+  },
+  {
+    "slug": "gross-margin-calculator",
+    "name": "Gross Margin Calculator",
+    "cat": "business-accounting",
+    "formula": "Gross Margin % = (Revenue - COGS) ÷ Revenue"
+  },
+  {
+    "slug": "markup-calculator",
+    "name": "Markup Percentage Calculator",
+    "cat": "business-accounting",
+    "formula": "Price = Cost × (1 + Markup %)"
+  },
+  {
+    "slug": "net-profit-margin-calculator",
+    "name": "Net Profit Margin",
+    "cat": "business-accounting",
+    "formula": "Net Margin = Net Income ÷ Total Revenue"
+  },
+  {
+    "slug": "operating-cash-flow-calculator",
+    "name": "Operating Cash Flow",
+    "cat": "business-accounting",
+    "formula": "OCF = Net Income + D&A - ΔNWC"
+  },
+  {
+    "slug": "receivables-turnover-calculator",
+    "name": "Accounts Receivable Turnover",
+    "cat": "business-accounting",
+    "formula": "Turnover = Net Credit Sales ÷ Avg Receivables"
+  },
+  {
+    "slug": "inventory-turnover-calculator",
+    "name": "Inventory Turnover Ratio",
+    "cat": "business-accounting",
+    "formula": "Turnover = COGS ÷ Average Inventory"
+  },
+  {
+    "slug": "current-ratio-calculator",
+    "name": "Current Ratio (Liquidity)",
+    "cat": "business-accounting",
+    "formula": "Current Ratio = Current Assets ÷ Current Liabilities"
+  },
+  {
+    "slug": "quick-ratio-calculator",
+    "name": "Quick Ratio (Acid-Test)",
+    "cat": "business-accounting",
+    "formula": "Quick Ratio = (Cash + AR) ÷ Current Liabilities"
+  },
+  {
+    "slug": "debt-to-equity-calculator",
+    "name": "Debt-to-Equity Ratio",
+    "cat": "business-accounting",
+    "formula": "D/E = Total Liabilities ÷ Total Equity"
+  },
+  {
+    "slug": "break-even-sales-calculator",
+    "name": "Break-Even Sales Revenue",
+    "cat": "business-accounting",
+    "formula": "Sales = Fixed Costs ÷ Contribution Margin %"
+  },
+  {
+    "slug": "roa-calculator",
+    "name": "Return on Assets (ROA)",
+    "cat": "business-accounting",
+    "formula": "ROA = Net Income ÷ Total Assets"
+  },
+  {
+    "slug": "roe-calculator",
+    "name": "Return on Equity (ROE)",
+    "cat": "business-accounting",
+    "formula": "ROE = Net Income ÷ Shareholder Equity"
+  },
+  {
+    "slug": "customer-lifetime-value-calculator",
+    "name": "Customer Lifetime Value (CLV)",
+    "cat": "business-accounting",
+    "formula": "CLV = Avg Order × Purchase Freq × Lifetime"
+  },
+  {
+    "slug": "cac-calculator",
+    "name": "Customer Acquisition Cost (CAC)",
+    "cat": "business-accounting",
+    "formula": "CAC = Total Marketing Spend ÷ New Customers"
+  },
+  {
+    "slug": "churn-rate-calculator",
+    "name": "SaaS Churn Rate Calculator",
+    "cat": "business-accounting",
+    "formula": "Churn % = (Lost Customers ÷ Start Customers) × 100"
+  },
+  {
+    "slug": "ebitda-calculator",
+    "name": "EBITDA Calculator",
+    "cat": "business-accounting",
+    "formula": "EBITDA = Operating Profit + D&A"
+  },
+  {
+    "slug": "depreciation-calculator",
+    "name": "Straight-Line Depreciation",
+    "cat": "business-accounting",
+    "formula": "Depreciation = (Cost - Salvage) ÷ Useful Years"
+  },
+  {
+    "slug": "dcf-calculator",
+    "name": "Discounted Cash Flow (DCF)",
+    "cat": "business-accounting",
+    "formula": "DCF = Σ [CF / (1+WACC)^t]"
+  },
+  {
+    "slug": "eoq-calculator",
+    "name": "Economic Order Quantity (EOQ)",
+    "cat": "business-accounting",
+    "formula": "EOQ = √[(2 × Demand × Order Cost) ÷ Holding Cost]"
+  },
+  {
+    "slug": "working-capital-calculator",
+    "name": "Working Capital Calculator",
+    "cat": "business-accounting",
+    "formula": "NWC = Current Assets - Current Liabilities"
+  },
+  {
+    "slug": "income-tax-calculator",
+    "name": "Federal Income Tax 2024",
+    "cat": "tax",
+    "formula": "Progressive 2024 Tax Brackets"
+  },
+  {
+    "slug": "sales-tax-calculator",
+    "name": "Sales Tax Calculator",
+    "cat": "tax",
+    "formula": "Tax = Price × (Rate ÷ 100)"
+  },
+  {
+    "slug": "capital-gains-tax-calculator",
+    "name": "Capital Gains Tax Calculator",
+    "cat": "tax",
+    "formula": "Tax = Capital Gain × Tax Bracket"
+  },
+  {
+    "slug": "self-employment-tax-calculator",
+    "name": "Self-Employment Tax (SECA)",
+    "cat": "tax",
+    "formula": "SE Tax = Net Earnings × 92.35% × 15.3%"
+  },
+  {
+    "slug": "fica-tax-calculator",
+    "name": "FICA Payroll Tax Calculator",
+    "cat": "tax",
+    "formula": "FICA = 7.65% of Gross Wages"
+  },
+  {
+    "slug": "property-tax-calculator",
+    "name": "Property Tax Calculator",
+    "cat": "tax",
+    "formula": "Tax = Assessed Value × Millage Rate ÷ 1000"
+  },
+  {
+    "slug": "vat-calculator",
+    "name": "VAT (Value Added Tax)",
+    "cat": "tax",
+    "formula": "VAT = Net × (VAT Rate ÷ 100)"
+  },
+  {
+    "slug": "reverse-vat-calculator",
+    "name": "Reverse VAT Calculator",
+    "cat": "tax",
+    "formula": "Pre-Tax = Total ÷ (1 + VAT Rate ÷ 100)"
+  },
+  {
+    "slug": "corporate-tax-calculator",
+    "name": "Corporate Income Tax",
+    "cat": "tax",
+    "formula": "Tax = Taxable Corporate Income × Rate"
+  },
+  {
+    "slug": "estate-tax-calculator",
+    "name": "Estate Tax Calculator",
+    "cat": "tax",
+    "formula": "Tax on Net Estate Exceeding Exemption"
+  },
+  {
+    "slug": "deduction-comparison-calculator",
+    "name": "Standard vs Itemized Deduction",
+    "cat": "tax",
+    "formula": "Max(Standard Deduction, Itemized Sum)"
+  },
+  {
+    "slug": "tax-refund-calculator",
+    "name": "Tax Refund Estimator",
+    "cat": "tax",
+    "formula": "Refund = Total Withholding - Total Tax"
+  },
+  {
+    "slug": "state-tax-calculator",
+    "name": "State Tax Estimator",
+    "cat": "tax",
+    "formula": "State Progressive Tax Schedule"
+  },
+  {
+    "slug": "quarterly-tax-calculator",
+    "name": "1099 Quarterly Estimated Tax",
+    "cat": "tax",
+    "formula": "Quarterly = Estimated Annual Tax ÷ 4"
+  },
+  {
+    "slug": "taxable-income-calculator",
+    "name": "Taxable Income Calculator",
+    "cat": "tax",
+    "formula": "Taxable = AGI - Standard Deduction"
+  },
+  {
+    "slug": "hourly-to-salary-calculator",
+    "name": "Hourly to Annual Salary",
+    "cat": "salary-wages",
+    "formula": "Annual = Hourly × 40 × 52"
+  },
+  {
+    "slug": "salary-to-hourly-calculator",
+    "name": "Salary to Hourly Wage",
+    "cat": "salary-wages",
+    "formula": "Hourly = Annual ÷ 2080"
+  },
+  {
+    "slug": "overtime-calculator",
+    "name": "Overtime Pay Calculator",
+    "cat": "salary-wages",
+    "formula": "OT Pay = Regular × 1.5 × OT Hours"
+  },
+  {
+    "slug": "paycheck-frequency-calculator",
+    "name": "Biweekly to Monthly Paycheck",
+    "cat": "salary-wages",
+    "formula": "Biweekly × 26 ÷ 12"
+  },
+  {
+    "slug": "take-home-pay-calculator",
+    "name": "Take-Home Pay Estimator",
+    "cat": "salary-wages",
+    "formula": "Net Pay = Gross - Taxes - Deductions"
+  },
+  {
+    "slug": "commission-calculator",
+    "name": "Sales Commission Calculator",
+    "cat": "salary-wages",
+    "formula": "Commission = Sales Volume × Commission Rate"
+  },
+  {
+    "slug": "bonus-tax-calculator",
+    "name": "Bonus Tax Withholding",
+    "cat": "salary-wages",
+    "formula": "Net Bonus = Bonus × (1 - 0.22 - FICA)"
+  },
+  {
+    "slug": "per-diem-calculator",
+    "name": "Per Diem Travel Allowance",
+    "cat": "salary-wages",
+    "formula": "Days × GSA Per Diem Rate"
+  },
+  {
+    "slug": "pay-raise-calculator",
+    "name": "Pay Raise & Salary Increase",
+    "cat": "salary-wages",
+    "formula": "New Salary = Current × (1 + Raise %)"
+  },
+  {
+    "slug": "minimum-wage-calculator",
+    "name": "Minimum Wage Compare",
+    "cat": "salary-wages",
+    "formula": "Wage Delta & Purchasing Power"
+  },
+  {
+    "slug": "unit-converter",
+    "name": "Length Converter",
+    "cat": "unit-converters",
+    "formula": "Metric vs Imperial Length Factors"
+  },
+  {
+    "slug": "weight-converter",
+    "name": "Weight & Mass Converter",
+    "cat": "unit-converters",
+    "formula": "1 lb = 0.453592 kg"
+  },
+  {
+    "slug": "temperature-converter",
+    "name": "Temperature Converter",
+    "cat": "unit-converters",
+    "formula": "°F = (°C × 9/5) + 32"
+  },
+  {
+    "slug": "volume-converter",
+    "name": "Volume Converter",
+    "cat": "unit-converters",
+    "formula": "1 gal = 3.78541 L"
+  },
+  {
+    "slug": "speed-converter",
+    "name": "Speed Converter",
+    "cat": "unit-converters",
+    "formula": "1 mph = 1.60934 km/h"
+  },
+  {
+    "slug": "area-converter",
+    "name": "Area Converter",
+    "cat": "unit-converters",
+    "formula": "1 acre = 43,560 sq ft"
+  },
+  {
+    "slug": "pressure-unit-converter",
+    "name": "Pressure Converter",
+    "cat": "unit-converters",
+    "formula": "1 atm = 101,325 Pa = 14.696 PSI"
+  },
+  {
+    "slug": "energy-converter",
+    "name": "Energy Converter",
+    "cat": "unit-converters",
+    "formula": "1 kcal = 4,184 J"
+  },
+  {
+    "slug": "power-converter",
+    "name": "Power Converter",
+    "cat": "unit-converters",
+    "formula": "1 HP = 745.7 Watts"
+  },
+  {
+    "slug": "fuel-economy-converter",
+    "name": "Fuel Economy Converter",
+    "cat": "unit-converters",
+    "formula": "L/100km = 235.215 ÷ US MPG"
+  },
+  {
+    "slug": "data-storage-converter",
+    "name": "Data Storage Converter",
+    "cat": "unit-converters",
+    "formula": "1 GB = 1024 MB = 1,073,741,824 Bytes"
+  },
+  {
+    "slug": "angle-converter",
+    "name": "Angle Converter",
+    "cat": "unit-converters",
+    "formula": "Radians = Degrees × (π ÷ 180)"
+  },
+  {
+    "slug": "time-converter",
+    "name": "Time Unit Converter",
+    "cat": "unit-converters",
+    "formula": "Standard Chronological Units"
+  },
+  {
+    "slug": "force-unit-converter",
+    "name": "Force Unit Converter",
+    "cat": "unit-converters",
+    "formula": "1 lbf = 4.44822 N"
+  },
+  {
+    "slug": "torque-unit-converter",
+    "name": "Torque Unit Converter",
+    "cat": "unit-converters",
+    "formula": "1 lb-ft = 1.35582 N·m"
+  },
+  {
+    "slug": "acceleration-unit-converter",
+    "name": "Acceleration Unit Converter",
+    "cat": "unit-converters",
+    "formula": "1 g = 9.80665 m/s²"
+  },
+  {
+    "slug": "flow-rate-converter",
+    "name": "Flow Rate Converter",
+    "cat": "unit-converters",
+    "formula": "1 GPM = 3.78541 LPM"
+  },
+  {
+    "slug": "density-unit-converter",
+    "name": "Density Unit Converter",
+    "cat": "unit-converters",
+    "formula": "1 g/cm³ = 1000 kg/m³"
+  },
+  {
+    "slug": "frequency-converter",
+    "name": "Frequency Converter",
+    "cat": "unit-converters",
+    "formula": "Powers of 1000 Hz"
+  },
+  {
+    "slug": "typography-converter",
+    "name": "Typography Converter (px/rem/pt)",
+    "cat": "unit-converters",
+    "formula": "rem = px ÷ 16"
+  },
+  {
+    "slug": "illuminance-converter",
+    "name": "Luminance & Illuminance",
+    "cat": "unit-converters",
+    "formula": "1 fc = 10.764 lux"
+  },
+  {
+    "slug": "radiation-converter",
+    "name": "Radiation Dose Converter",
+    "cat": "unit-converters",
+    "formula": "1 Sv = 100 Rem"
+  },
+  {
+    "slug": "cooking-volume-converter",
+    "name": "Cooking Volume Converter",
+    "cat": "unit-converters",
+    "formula": "1 tbsp = 3 tsp = 15 mL"
+  },
+  {
+    "slug": "awg-converter",
+    "name": "Wire Gauge (AWG to mm²)",
+    "cat": "unit-converters",
+    "formula": "d = 0.127 × 92^((36-AWG)/39) mm"
+  },
+  {
+    "slug": "shoe-size-converter",
+    "name": "Shoe Size Converter",
+    "cat": "unit-converters",
+    "formula": "International Shoe Fit Standards"
+  },
+  {
+    "slug": "ring-size-converter",
+    "name": "Ring Size Converter",
+    "cat": "unit-converters",
+    "formula": "Standard ISO Ring Diameters"
+  },
+  {
+    "slug": "metric-prefix-converter",
+    "name": "Metric Prefix Converter",
+    "cat": "unit-converters",
+    "formula": "Powers of 10³ Multipliers"
+  },
+  {
+    "slug": "clothing-size-converter",
+    "name": "Clothing Size International",
+    "cat": "unit-converters",
+    "formula": "Apparel Conversion Table"
+  },
+  {
+    "slug": "aspect-ratio-converter",
+    "name": "Screen Aspect Ratio",
+    "cat": "unit-converters",
+    "formula": "Width ÷ Height Ratio Scaling"
+  },
+  {
+    "slug": "km-per-liter-converter",
+    "name": "Fuel Consumption (km/L)",
+    "cat": "unit-converters",
+    "formula": "km/L = 100 ÷ (L/100km)"
+  },
+  {
+    "slug": "age-calculator",
+    "name": "Age Calculator",
+    "cat": "date-time",
+    "formula": "Exact Date Difference"
+  },
+  {
+    "slug": "days-between-dates-calculator",
+    "name": "Days Between Dates",
+    "cat": "date-time",
+    "formula": "Δt = (Date2 - Date1) in days"
+  },
+  {
+    "slug": "business-days-calculator",
+    "name": "Business Days Calculator",
+    "cat": "date-time",
+    "formula": "Working days minus holidays"
+  },
+  {
+    "slug": "date-add-days-calculator",
+    "name": "Date Add / Subtract Days",
+    "cat": "date-time",
+    "formula": "Date ± N Days"
+  },
+  {
+    "slug": "time-zone-calculator",
+    "name": "Time Zone Converter",
+    "cat": "date-time",
+    "formula": "UTC Offset Translation"
+  },
+  {
+    "slug": "hours-calculator",
+    "name": "Time Card & Work Hours",
+    "cat": "date-time",
+    "formula": "Total Hours = ClockOut - ClockIn - Lunch"
+  },
+  {
+    "slug": "countdown-calculator",
+    "name": "Countdown to Event Timer",
+    "cat": "date-time",
+    "formula": "Target Time - Current Timestamp"
+  },
+  {
+    "slug": "day-of-week-calculator",
+    "name": "Day of the Week Finder",
+    "cat": "date-time",
+    "formula": "Zeller's Congruence"
+  },
+  {
+    "slug": "leap-year-calculator",
+    "name": "Leap Year Checker",
+    "cat": "date-time",
+    "formula": "Year % 4 === 0 && (Year % 100 !== 0 || Year % 400 === 0)"
+  },
+  {
+    "slug": "unix-timestamp-calculator",
+    "name": "Epoch / Unix Timestamp",
+    "cat": "date-time",
+    "formula": "Epoch Milliseconds to UTC Date"
+  },
+  {
+    "slug": "week-number-calculator",
+    "name": "Week Number in Year",
+    "cat": "date-time",
+    "formula": "ISO Week Standard"
+  },
+  {
+    "slug": "hours-minutes-calculator",
+    "name": "Hours to Minutes / Seconds",
+    "cat": "date-time",
+    "formula": "Decimal Hours Breakdown"
+  },
+  {
+    "slug": "day-length-calculator",
+    "name": "Daylight & Day Length",
+    "cat": "date-time",
+    "formula": "Solar Declination Geometry"
+  },
+  {
+    "slug": "military-time-calculator",
+    "name": "Military Time Converter",
+    "cat": "date-time",
+    "formula": "24-hour Modular Conversion"
+  },
+  {
+    "slug": "julian-date-calculator",
+    "name": "Julian Date Converter",
+    "cat": "date-time",
+    "formula": "Astronomical Julian Day Calculation"
+  },
+  {
+    "slug": "gpa-calculator",
+    "name": "College GPA Calculator",
+    "cat": "education",
+    "formula": "GPA = Σ(Points × Credits) ÷ Total Credits"
+  },
+  {
+    "slug": "high-school-gpa-calculator",
+    "name": "High School Weighted GPA",
+    "cat": "education",
+    "formula": "Weighted Point Allocation Scale"
+  },
+  {
+    "slug": "final-grade-calculator",
+    "name": "Final Exam Grade Needed",
+    "cat": "education",
+    "formula": "Needed = (Target - Current×(1-w)) ÷ w"
+  },
+  {
+    "slug": "grade-calculator",
+    "name": "Grade Percentage to Letter",
+    "cat": "education",
+    "formula": "Standard Academic Grade Scale"
+  },
+  {
+    "slug": "test-percentage-calculator",
+    "name": "Test Score Percentage",
+    "cat": "education",
+    "formula": "Score % = (Correct ÷ Total) × 100"
+  },
+  {
+    "slug": "reading-speed-calculator",
+    "name": "Reading Speed (WPM)",
+    "cat": "education",
+    "formula": "WPM = Total Words ÷ Reading Minutes"
+  },
+  {
+    "slug": "word-counter",
+    "name": "Word & Character Counter",
+    "cat": "education",
+    "formula": "Text Tokenization & Parsing"
+  },
+  {
+    "slug": "spaced-repetition-calculator",
+    "name": "Flashcard Spaced Repetition",
+    "cat": "education",
+    "formula": "SuperMemo SM-2 Interval Function"
+  },
+  {
+    "slug": "homework-time-calculator",
+    "name": "Homework Time Estimator",
+    "cat": "education",
+    "formula": "2 to 3 Study Hours per Credit Hour"
+  },
+  {
+    "slug": "attendance-calculator",
+    "name": "Class Attendance Rate",
+    "cat": "education",
+    "formula": "Attendance % = (Attended ÷ Total Classes) × 100"
+  },
+  {
+    "slug": "study-planner-calculator",
+    "name": "Study Schedule Planner",
+    "cat": "education",
+    "formula": "Time Blocking Schedule Allocation"
+  },
+  {
+    "slug": "words-to-pages-calculator",
+    "name": "Essay Words to Pages",
+    "cat": "education",
+    "formula": "Pages = Words ÷ 250 (double spaced)"
+  },
+  {
+    "slug": "student-loan-calculator",
+    "name": "Student Loan Payoff Calculator",
+    "cat": "education",
+    "formula": "Amortizing Repayment Equation"
+  },
+  {
+    "slug": "credit-load-calculator",
+    "name": "Semester Credit Load Sizer",
+    "cat": "education",
+    "formula": "Weekly Hours = Credits × 3"
+  },
+  {
+    "slug": "percentile-rank-calculator",
+    "name": "Percentile Rank Calculator",
+    "cat": "education",
+    "formula": "Percentile = (Scores Below ÷ Total Scores) × 100"
+  },
+  {
+    "slug": "recipe-scale-calculator",
+    "name": "Recipe Yield Scaler",
+    "cat": "cooking-nutrition",
+    "formula": "Scaling Factor = Desired ÷ Original Servings"
+  },
+  {
+    "slug": "butter-converter",
+    "name": "Butter Converter",
+    "cat": "cooking-nutrition",
+    "formula": "1 Stick = 8 Tbsp = ½ Cup = 113.4g"
+  },
+  {
+    "slug": "flour-converter",
+    "name": "Flour Grams to Cups",
+    "cat": "cooking-nutrition",
+    "formula": "1 Cup All-Purpose Flour ≈ 120g - 125g"
+  },
+  {
+    "slug": "sugar-converter",
+    "name": "Sugar Grams to Cups",
+    "cat": "cooking-nutrition",
+    "formula": "1 Cup Granulated Sugar ≈ 200g"
+  },
+  {
+    "slug": "roasting-time-calculator",
+    "name": "Meat Roasting Time per Pound",
+    "cat": "cooking-nutrition",
+    "formula": "Time = Weight (lbs) × Minutes per Pound"
+  },
+  {
+    "slug": "turkey-cooking-calculator",
+    "name": "Turkey Thawing & Cooking",
+    "cat": "cooking-nutrition",
+    "formula": "Thaw: 24h per 4 lbs; Roast: 15 min per lb"
+  },
+  {
+    "slug": "cooking-temperature-calculator",
+    "name": "Cooking Temperature (F to C)",
+    "cat": "cooking-nutrition",
+    "formula": "°C = (°F - 32) × 5/9"
+  },
+  {
+    "slug": "sourdough-converter",
+    "name": "Yeast to Sourdough Converter",
+    "cat": "cooking-nutrition",
+    "formula": "Baker Percentage Hydration Adjustment"
+  },
+  {
+    "slug": "pan-size-calculator",
+    "name": "Baking Pan Size Adjuster",
+    "cat": "cooking-nutrition",
+    "formula": "Area Ratio = Target Pan Area ÷ Source Pan Area"
+  },
+  {
+    "slug": "brine-calculator",
+    "name": "Brine Salt Concentration",
+    "cat": "cooking-nutrition",
+    "formula": "Salt % = Salt Weight ÷ (Water + Meat) Weight"
+  },
+  {
+    "slug": "coffee-ratio-calculator",
+    "name": "Coffee Brewing Ratio (1:16)",
+    "cat": "cooking-nutrition",
+    "formula": "Water (g) = Coffee (g) × Ratio"
+  },
+  {
+    "slug": "abv-calculator",
+    "name": "Alcohol by Volume (ABV)",
+    "cat": "cooking-nutrition",
+    "formula": "ABV = (Original Gravity - Final Gravity) × 131.25"
+  },
+  {
+    "slug": "recipe-calorie-calculator",
+    "name": "Recipe Serving Calorie Sizer",
+    "cat": "cooking-nutrition",
+    "formula": "Per Serving = Total Batch ÷ Servings"
+  },
+  {
+    "slug": "recipe-macro-calculator",
+    "name": "Macronutrient Recipe Split",
+    "cat": "cooking-nutrition",
+    "formula": "Macro Sum Distribution"
+  },
+  {
+    "slug": "liquid-cooking-calculator",
+    "name": "Liquid Cooking Measurement",
+    "cat": "cooking-nutrition",
+    "formula": "Cooking Volume Hierarchy"
+  },
+  {
+    "slug": "concrete-calculator",
+    "name": "Concrete Slab Volume (Yards)",
+    "cat": "construction",
+    "formula": "Yards = (L × W × Depth in ft) ÷ 27"
+  },
+  {
+    "slug": "paint-calculator",
+    "name": "Paint Gallons Needed",
+    "cat": "construction",
+    "formula": "Gallons = Total Sq Ft ÷ 350 sq ft/gal"
+  },
+  {
+    "slug": "tile-calculator",
+    "name": "Tile & Grout Calculator",
+    "cat": "construction",
+    "formula": "Tiles = (Room Sq Ft ÷ Tile Sq Ft) × 1.10"
+  },
+  {
+    "slug": "drywall-calculator",
+    "name": "Drywall Sheets Needed",
+    "cat": "construction",
+    "formula": "Sheets = Total Wall/Ceiling Area ÷ Sheet Area"
+  },
+  {
+    "slug": "roofing-calculator",
+    "name": "Roofing Shingles (Squares)",
+    "cat": "construction",
+    "formula": "Squares = Total Roof Area ÷ 100"
+  },
+  {
+    "slug": "board-feet-calculator",
+    "name": "Lumber Board Feet",
+    "cat": "construction",
+    "formula": "BF = (Thickness″ × Width″ × Length′) ÷ 12"
+  },
+  {
+    "slug": "brick-calculator",
+    "name": "Brick & Mortar Calculator",
+    "cat": "construction",
+    "formula": "Bricks = Wall Sq Ft × 7 bricks/sq ft"
+  },
+  {
+    "slug": "gravel-calculator",
+    "name": "Gravel / Sand / Mulch Tonnage",
+    "cat": "construction",
+    "formula": "Tons = Cubic Yards × Material Bulk Density"
+  },
+  {
+    "slug": "flooring-calculator",
+    "name": "Flooring Square Footage",
+    "cat": "construction",
+    "formula": "Boxes = (Total Sq Ft × 1.10) ÷ Sq Ft per Box"
+  },
+  {
+    "slug": "decking-calculator",
+    "name": "Decking Boards & Screws",
+    "cat": "construction",
+    "formula": "Deck Area Sizing Equations"
+  },
+  {
+    "slug": "stair-calculator",
+    "name": "Stair Riser & Tread Calculator",
+    "cat": "construction",
+    "formula": "2 × Rise + Run = 24 to 25 inches"
+  },
+  {
+    "slug": "stud-calculator",
+    "name": "Wall Studs Framing Calculator",
+    "cat": "construction",
+    "formula": "Studs = (Wall Length ÷ Spacing) + Corners"
+  },
+  {
+    "slug": "asphalt-calculator",
+    "name": "Asphalt Driveway Volume",
+    "cat": "construction",
+    "formula": "Tons = (Sq Ft × Depth″ × 110) ÷ 2000"
+  },
+  {
+    "slug": "wallpaper-calculator",
+    "name": "Wallpaper Rolls Needed",
+    "cat": "construction",
+    "formula": "Rolls = Total Wall Area ÷ Usable Roll Area"
+  },
+  {
+    "slug": "insulation-calculator",
+    "name": "Insulation R-Value Sizer",
+    "cat": "construction",
+    "formula": "Total R-Value = Thickness × R-per-inch"
+  },
+  {
+    "slug": "rebar-calculator",
+    "name": "Rebar Weight & Spacing",
+    "cat": "construction",
+    "formula": "Linear Feet = Grid Intersections × Spacing"
+  },
+  {
+    "slug": "retaining-wall-calculator",
+    "name": "Retaining Wall Block",
+    "cat": "construction",
+    "formula": "Blocks = (Wall Length × Height) ÷ Block Face Area"
+  },
+  {
+    "slug": "fence-calculator",
+    "name": "Fence Post & Pickets",
+    "cat": "construction",
+    "formula": "Posts = (Fence Length ÷ 8) + 1"
+  },
+  {
+    "slug": "excavation-calculator",
+    "name": "Excavation Dirt Volume & Swell",
+    "cat": "construction",
+    "formula": "Loose Volume = Bank Volume × Swell Factor"
+  },
+  {
+    "slug": "siding-calculator",
+    "name": "Siding Coverage Calculator",
+    "cat": "construction",
+    "formula": "Squares = (Net Wall Area ÷ 100) × 1.10"
+  },
+  {
+    "slug": "beam-deflection-calculator",
+    "name": "Beam Deflection Calculator",
+    "cat": "engineering",
+    "formula": "δ_max = (5 w L⁴) ÷ (384 E I)"
+  },
+  {
+    "slug": "stress-strain-calculator",
+    "name": "Stress and Strain (Hooke)",
+    "cat": "engineering",
+    "formula": "σ = F ÷ A, ε = ΔL ÷ L₀, E = σ ÷ ε"
+  },
+  {
+    "slug": "thermal-expansion-calculator",
+    "name": "Thermal Expansion (ΔL)",
+    "cat": "engineering",
+    "formula": "ΔL = α × L₀ × ΔT"
+  },
+  {
+    "slug": "reynolds-number-calculator",
+    "name": "Reynolds Number (Flow)",
+    "cat": "engineering",
+    "formula": "Re = (ρ × v × D) ÷ μ"
+  },
+  {
+    "slug": "gear-ratio-calculator",
+    "name": "Gear Ratio & Output RPM",
+    "cat": "engineering",
+    "formula": "Gear Ratio = Teeth_driven ÷ Teeth_drive"
+  },
+  {
+    "slug": "hydraulic-cylinder-calculator",
+    "name": "Hydraulic Cylinder Force",
+    "cat": "engineering",
+    "formula": "Force = Pressure × Piston Area"
+  },
+  {
+    "slug": "bolt-torque-calculator",
+    "name": "Bolt Torque & Tension",
+    "cat": "engineering",
+    "formula": "T = K × D × F"
+  },
+  {
+    "slug": "pipe-flow-calculator",
+    "name": "Pipe Flow Rate & Friction Loss",
+    "cat": "engineering",
+    "formula": "h_f = f × (L/D) × (v² / 2g)"
+  },
+  {
+    "slug": "heat-conduction-calculator",
+    "name": "Heat Transfer (Conduction)",
+    "cat": "engineering",
+    "formula": "Q = (k × A × ΔT) ÷ d"
+  },
+  {
+    "slug": "column-buckling-calculator",
+    "name": "Column Buckling (Euler)",
+    "cat": "engineering",
+    "formula": "P_cr = (π² E I) ÷ (K L)²"
+  },
+  {
+    "slug": "resistor-color-code-calculator",
+    "name": "Resistor Color Code",
+    "cat": "engineering",
+    "formula": "Color Band Value Multiplier"
+  },
+  {
+    "slug": "capacitor-calculator",
+    "name": "Capacitor Charge & Energy",
+    "cat": "engineering",
+    "formula": "Q = C × V, E = ½ C V²"
+  },
+  {
+    "slug": "inductance-calculator",
+    "name": "Inductance & Reactance",
+    "cat": "engineering",
+    "formula": "X_L = 2 π f L"
+  },
+  {
+    "slug": "spring-rate-calculator",
+    "name": "Spring Rate (Hooke)",
+    "cat": "engineering",
+    "formula": "F = k × x"
+  },
+  {
+    "slug": "decibel-distance-calculator",
+    "name": "Sound Decibel Distance Loss",
+    "cat": "engineering",
+    "formula": "dB_2 = dB_1 - 20 log₁₀(d₂ / d₁)"
+  },
+  {
+    "slug": "fuel-cost-calculator",
+    "name": "Trip Fuel Cost Calculator",
+    "cat": "automotive",
+    "formula": "Cost = (Miles ÷ MPG) × Gas Price"
+  },
+  {
+    "slug": "mpg-calculator",
+    "name": "Miles Per Gallon (MPG)",
+    "cat": "automotive",
+    "formula": "MPG = Miles Driven ÷ Gallons Filled"
+  },
+  {
+    "slug": "gas-vs-ev-calculator",
+    "name": "Gas vs Electric (EV) Savings",
+    "cat": "automotive",
+    "formula": "Annual Fuel Delta Comparison"
+  },
+  {
+    "slug": "auto-loan-calculator",
+    "name": "Car Loan & Payment Sizer",
+    "cat": "automotive",
+    "formula": "Auto Loan Amortization"
+  },
+  {
+    "slug": "car-lease-vs-buy-calculator",
+    "name": "Lease vs Buy Comparison",
+    "cat": "automotive",
+    "formula": "Net Present Cost Comparison"
+  },
+  {
+    "slug": "tire-size-calculator",
+    "name": "Tire Size & Speedometer Offset",
+    "cat": "automotive",
+    "formula": "Speedometer Error = (New Diameter ÷ Old Diameter) × 100"
+  },
+  {
+    "slug": "horsepower-calculator",
+    "name": "Horsepower to Kilowatts (HP/kW)",
+    "cat": "automotive",
+    "formula": "1 HP = 0.7457 kW"
+  },
+  {
+    "slug": "engine-displacement-calculator",
+    "name": "Engine Displacement (CID to Liters)",
+    "cat": "automotive",
+    "formula": "Displacement = π/4 × Bore² × Stroke × Cylinders"
+  },
+  {
+    "slug": "quarter-mile-calculator",
+    "name": "Quarter-Mile ET & Trap Speed",
+    "cat": "automotive",
+    "formula": "ET = 5.825 × (Weight ÷ HP)^(1/3)"
+  },
+  {
+    "slug": "oil-change-calculator",
+    "name": "Oil Change Cost & Interval",
+    "cat": "automotive",
+    "formula": "Annual Cost = (Miles ÷ Interval) × Cost"
+  },
+  {
+    "slug": "stopping-distance-calculator",
+    "name": "Brake Stopping Distance",
+    "cat": "automotive",
+    "formula": "d = v × t_r + (v² ÷ 2μg)"
+  },
+  {
+    "slug": "car-depreciation-calculator",
+    "name": "Vehicle Depreciation Estimator",
+    "cat": "automotive",
+    "formula": "Residual Value Depreciation Table"
+  },
+  {
+    "slug": "car-trade-in-calculator",
+    "name": "Car Trade-In Net Equity",
+    "cat": "automotive",
+    "formula": "Net Equity = Offer Value - Remaining Balance"
+  },
+  {
+    "slug": "towing-capacity-calculator",
+    "name": "Towing Capacity Sizer",
+    "cat": "automotive",
+    "formula": "Max Tow = GCWR - Vehicle Curb Weight - Cargo"
+  },
+  {
+    "slug": "differential-gear-calculator",
+    "name": "Gear Ratio & Tire RPM",
+    "cat": "automotive",
+    "formula": "RPM = (MPH × Gear Ratio × Axle Ratio × 336) ÷ Tire Diameter"
+  },
+  {
+    "slug": "solar-panel-calculator",
+    "name": "Solar Panel Savings Calculator",
+    "cat": "energy-solar",
+    "formula": "Generation = Size (kW) × Sun Hours × 365 × 0.8"
+  },
+  {
+    "slug": "electricity-cost-calculator",
+    "name": "Electricity Bill & kWh Cost",
+    "cat": "energy-solar",
+    "formula": "Cost = (Watts × Hours ÷ 1000) × Rate"
+  },
+  {
+    "slug": "appliance-power-calculator",
+    "name": "Appliance Power Consumption",
+    "cat": "energy-solar",
+    "formula": "kWh = Watts × Hours ÷ 1000"
+  },
+  {
+    "slug": "solar-battery-calculator",
+    "name": "Solar Battery Storage Sizing",
+    "cat": "energy-solar",
+    "formula": "Battery kWh = Daily Backup Load ÷ Depth of Discharge"
+  },
+  {
+    "slug": "peak-sun-hours-calculator",
+    "name": "Peak Sun Hours Sizer",
+    "cat": "energy-solar",
+    "formula": "Solar Insolation Values"
+  },
+  {
+    "slug": "carbon-footprint-calculator",
+    "name": "Carbon Footprint Calculator",
+    "cat": "energy-solar",
+    "formula": "CO2e Emission Factors"
+  },
+  {
+    "slug": "heat-pump-savings-calculator",
+    "name": "Heat Pump vs Furnace Savings",
+    "cat": "energy-solar",
+    "formula": "COP Efficiency Cost Delta"
+  },
+  {
+    "slug": "led-savings-calculator",
+    "name": "LED vs Incandescent ROI",
+    "cat": "energy-solar",
+    "formula": "Savings = (Incandescent Watts - LED Watts) × Hours × Rate"
+  },
+  {
+    "slug": "ev-charging-calculator",
+    "name": "Electric Vehicle (EV) Charging",
+    "cat": "energy-solar",
+    "formula": "Charge Time = Battery kWh ÷ Charger kW"
+  },
+  {
+    "slug": "generator-sizing-calculator",
+    "name": "Generator Wattage Sizing",
+    "cat": "energy-solar",
+    "formula": "Total Watts = Running Watts + Highest Starting Surge"
+  },
+  {
+    "slug": "wind-turbine-calculator",
+    "name": "Wind Turbine Output",
+    "cat": "energy-solar",
+    "formula": "Power = ½ ρ A v³ C_p"
+  },
+  {
+    "slug": "home-energy-calculator",
+    "name": "Home Energy Efficiency Audit",
+    "cat": "energy-solar",
+    "formula": "Building Thermal Loss BTU/hr"
+  },
+  {
+    "slug": "heating-cost-comparison-calculator",
+    "name": "Gas vs Electric Heating",
+    "cat": "energy-solar",
+    "formula": "Cost per 1M BTU Comparison"
+  },
+  {
+    "slug": "vampire-power-calculator",
+    "name": "Vampire Standby Power Draw",
+    "cat": "energy-solar",
+    "formula": "Annual Waste = Standby Watts × 8760h × Rate"
+  },
+  {
+    "slug": "pool-heating-calculator",
+    "name": "Swimming Pool Heating Energy",
+    "cat": "energy-solar",
+    "formula": "BTUs = Gallons × 8.34 × Temp Rise (°F)"
+  },
+  {
+    "slug": "subnet-calculator",
+    "name": "IPv4 Subnet Calculator (CIDR)",
+    "cat": "computer-networking",
+    "formula": "Usable Hosts = 2^(32 - CIDR) - 2"
+  },
+  {
+    "slug": "ipv6-calculator",
+    "name": "IPv6 Address Shortener",
+    "cat": "computer-networking",
+    "formula": "Zero Compression (::) Standard"
+  },
+  {
+    "slug": "download-time-calculator",
+    "name": "File Download Time Calculator",
+    "cat": "computer-networking",
+    "formula": "Time = (File Size in Mbits) ÷ (Speed in Mbps)"
+  },
+  {
+    "slug": "megabits-to-megabytes-calculator",
+    "name": "Internet Speed Test to MB/s",
+    "cat": "computer-networking",
+    "formula": "MB/s = Mbps ÷ 8"
+  },
+  {
+    "slug": "latency-calculator",
+    "name": "Ping & Latency Converter",
+    "cat": "computer-networking",
+    "formula": "Delay = Distance ÷ (Speed of Light in Fiber)"
+  },
+  {
+    "slug": "binary-calculator",
+    "name": "Binary to Decimal / Hexadecimal",
+    "cat": "computer-networking",
+    "formula": "Positional Radix Encoding"
+  },
+  {
+    "slug": "bitwise-calculator",
+    "name": "Bitwise Logical Operations",
+    "cat": "computer-networking",
+    "formula": "Bitwise Logic Gates"
+  },
+  {
+    "slug": "storage-capacity-calculator",
+    "name": "Storage Capacity Terabytes",
+    "cat": "computer-networking",
+    "formula": "TiB = TB × (10¹² ÷ 2⁴⁰)"
+  },
+  {
+    "slug": "raid-calculator",
+    "name": "RAID Storage & Redundancy",
+    "cat": "computer-networking",
+    "formula": "RAID Array Parity Formulas"
+  },
+  {
+    "slug": "mtbf-calculator",
+    "name": "MTBF & Hardware Reliability",
+    "cat": "computer-networking",
+    "formula": "Reliability R(t) = e^(-t / MTBF)"
+  },
+  {
+    "slug": "ethernet-cable-calculator",
+    "name": "Ethernet Cable Signal Attenuation",
+    "cat": "computer-networking",
+    "formula": "Decibel Loss per 100m"
+  },
+  {
+    "slug": "wifi-channel-calculator",
+    "name": "Wi-Fi Channel Frequency Overlap",
+    "cat": "computer-networking",
+    "formula": "RF Channel Spectrum Allocation"
+  },
+  {
+    "slug": "ip-range-calculator",
+    "name": "IP Address Range Sizer",
+    "cat": "computer-networking",
+    "formula": "Sequential IP Range Traversal"
+  },
+  {
+    "slug": "dns-ttl-calculator",
+    "name": "DNS TTL Expiration Estimator",
+    "cat": "computer-networking",
+    "formula": "TTL Seconds Conversion"
+  },
+  {
+    "slug": "video-bitrate-calculator",
+    "name": "Video Bitrate to File Size",
+    "cat": "computer-networking",
+    "formula": "Size = (Video Bitrate + Audio Bitrate) × Duration ÷ 8"
+  },
+  {
+    "slug": "big-o-calculator",
+    "name": "Big O Time Complexity Growth",
+    "cat": "programming",
+    "formula": "Algorithmic Complexity Growth Ratios"
+  },
+  {
+    "slug": "hex-to-rgb-calculator",
+    "name": "HEX Color to RGB / HSL",
+    "cat": "programming",
+    "formula": "Hexadecimal to 0-255 RGB Tuple"
+  },
+  {
+    "slug": "chmod-calculator",
+    "name": "UNIX File Permissions (chmod)",
+    "cat": "programming",
+    "formula": "Octal Bitwise Permissions: r=4, w=2, x=1"
+  },
+  {
+    "slug": "crc32-calculator",
+    "name": "String Hash & CRC32",
+    "cat": "programming",
+    "formula": "CRC32 Polynomial Hash"
+  },
+  {
+    "slug": "regex-calculator",
+    "name": "Regex Match Speed Estimator",
+    "cat": "programming",
+    "formula": "Nondeterministic Finite Automata Steps"
+  },
+  {
+    "slug": "ascii-calculator",
+    "name": "ASCII Table Character Lookup",
+    "cat": "programming",
+    "formula": "7-bit ASCII Character Standard"
+  },
+  {
+    "slug": "base64-overhead-calculator",
+    "name": "Base64 String Overhead",
+    "cat": "programming",
+    "formula": "Base64 Size ≈ Original Bytes × (4/3)"
+  },
+  {
+    "slug": "ms-to-human-time-calculator",
+    "name": "Milliseconds to Human Duration",
+    "cat": "programming",
+    "formula": "Modular Time Division"
+  },
+  {
+    "slug": "machine-epsilon-calculator",
+    "name": "Floating Point Machine Epsilon",
+    "cat": "programming",
+    "formula": "1.0 + ε > 1.0 Floating Point Epsilon"
+  },
+  {
+    "slug": "struct-alignment-calculator",
+    "name": "Memory Struct Byte Alignment",
+    "cat": "programming",
+    "formula": "Data Struct Packing Rules"
+  },
+  {
+    "slug": "ctr-calculator",
+    "name": "Click-Through Rate (CTR)",
+    "cat": "marketing-business",
+    "formula": "CTR = (Clicks ÷ Impressions) × 100"
+  },
+  {
+    "slug": "cpc-calculator",
+    "name": "Cost Per Click (CPC)",
+    "cat": "marketing-business",
+    "formula": "CPC = Total Cost ÷ Total Clicks"
+  },
+  {
+    "slug": "cpm-calculator",
+    "name": "Cost Per Mille (CPM)",
+    "cat": "marketing-business",
+    "formula": "CPM = (Total Cost ÷ Impressions) × 1000"
+  },
+  {
+    "slug": "roas-calculator",
+    "name": "Return on Ad Spend (ROAS)",
+    "cat": "marketing-business",
+    "formula": "ROAS = Revenue from Ads ÷ Ad Spend"
+  },
+  {
+    "slug": "cpa-calculator",
+    "name": "Cost Per Acquisition (CPA)",
+    "cat": "marketing-business",
+    "formula": "CPA = Total Marketing Spend ÷ Conversions"
+  },
+  {
+    "slug": "conversion-rate-calculator",
+    "name": "Landing Page Conversion Rate",
+    "cat": "marketing-business",
+    "formula": "CR % = (Conversions ÷ Total Visitors) × 100"
+  },
+  {
+    "slug": "marketing-clv-calculator",
+    "name": "Customer Lifetime Value (LTV)",
+    "cat": "marketing-business",
+    "formula": "LTV = Margin × Avg Spend × Lifespan"
+  },
+  {
+    "slug": "email-marketing-calculator",
+    "name": "Email Open & Click Rate",
+    "cat": "marketing-business",
+    "formula": "Open Rate = Opens ÷ Delivered Emails"
+  },
+  {
+    "slug": "cpl-calculator",
+    "name": "Cost Per Lead (CPL)",
+    "cat": "marketing-business",
+    "formula": "CPL = Total Spend ÷ Leads Generated"
+  },
+  {
+    "slug": "nps-calculator",
+    "name": "Net Promoter Score (NPS)",
+    "cat": "marketing-business",
+    "formula": "NPS = % Promoters - % Detractors"
+  },
+  {
+    "slug": "viral-coefficient-calculator",
+    "name": "Viral Coefficient (K-factor)",
+    "cat": "marketing-business",
+    "formula": "K = Invites per User × Conversion %"
+  },
+  {
+    "slug": "ad-budget-calculator",
+    "name": "Ad Budget Estimator",
+    "cat": "marketing-business",
+    "formula": "Budget = (Target Orders ÷ Conversion Rate) × CPC"
+  },
+  {
+    "slug": "ppc-roi-calculator",
+    "name": "PPC Pay-Per-Click ROI",
+    "cat": "marketing-business",
+    "formula": "PPC ROI = (Gross Profit - Ad Spend) ÷ Ad Spend"
+  },
+  {
+    "slug": "engagement-rate-calculator",
+    "name": "Social Media Engagement Rate",
+    "cat": "marketing-business",
+    "formula": "Engagement % = (Likes + Comments + Shares) ÷ Followers"
+  },
+  {
+    "slug": "bounce-rate-calculator",
+    "name": "Website Bounce Rate",
+    "cat": "marketing-business",
+    "formula": "Bounce % = (Single-Page Visits ÷ Total Entries) × 100"
+  },
+  {
+    "slug": "random-number-generator",
+    "name": "Random Number Generator",
+    "cat": "fun-random",
+    "formula": "Math.floor(Math.random() × (max - min + 1)) + min"
+  },
+  {
+    "slug": "dice-roller",
+    "name": "Dice Roller (d6, d20, d100)",
+    "cat": "fun-random",
+    "formula": "Random Polyhedral Probability"
+  },
+  {
+    "slug": "coin-flip-calculator",
+    "name": "Coin Flip Simulator",
+    "cat": "fun-random",
+    "formula": "Bernoulli Trial 50/50"
+  },
+  {
+    "slug": "love-calculator",
+    "name": "Love Compatibility Calculator",
+    "cat": "fun-random",
+    "formula": "Name Frequency Syllabic Matrix"
+  },
+  {
+    "slug": "zodiac-calculator",
+    "name": "Zodiac Sign & Astrology Finder",
+    "cat": "fun-random",
+    "formula": "Solar Longitude Calendar Bands"
+  },
+  {
+    "slug": "password-entropy-calculator",
+    "name": "Password Strength & Entropy",
+    "cat": "fun-random",
+    "formula": "Entropy = L × log₂(Character Pool Size)"
+  },
+  {
+    "slug": "cat-age-calculator",
+    "name": "Cat Age to Human Years",
+    "cat": "fun-random",
+    "formula": "Feline Physiological Aging Curve"
+  },
+  {
+    "slug": "dog-age-calculator",
+    "name": "Dog Age to Human Years",
+    "cat": "fun-random",
+    "formula": "Human Years = 16 × ln(Dog Age) + 31"
+  },
+  {
+    "slug": "caffeine-halflife-calculator",
+    "name": "Coffee Caffeine Halflife",
+    "cat": "fun-random",
+    "formula": "C(t) = C₀ × (0.5)^(hours / 5)"
+  },
+  {
+    "slug": "lottery-odds-calculator",
+    "name": "Lottery Odds Calculator",
+    "cat": "fun-random",
+    "formula": "Odds = 1 in [nCr × bonusChoice]"
+  },
+  {
+    "slug": "caesar-cipher-calculator",
+    "name": "Caesar Cipher Encryptor",
+    "cat": "fun-random",
+    "formula": "C = (P + Key) mod 26"
+  },
+  {
+    "slug": "decision-maker-calculator",
+    "name": "Random Decision Wheel",
+    "cat": "fun-random",
+    "formula": "Uniform Random Selection"
+  },
+  {
+    "slug": "days-lived-calculator",
+    "name": "Days Lived Milestone Counter",
+    "cat": "fun-random",
+    "formula": "Birthdate + N Days"
+  },
+  {
+    "slug": "typing-speed-calculator",
+    "name": "Typing Speed Test (WPM)",
+    "cat": "fun-random",
+    "formula": "WPM = (Characters ÷ 5) ÷ Minutes"
+  },
+  {
+    "slug": "color-palette-generator",
+    "name": "Random Color Palette Generator",
+    "cat": "fun-random",
+    "formula": "HSL Color Wheel Geometry"
+  },
+  {
+    "slug": "running-pace-calculator",
+    "name": "Running Pace Calculator",
+    "cat": "sports",
+    "formula": "Pace = Time ÷ Distance"
+  },
+  {
+    "slug": "cycling-power-calculator",
+    "name": "Cycling Speed & Watts Power",
+    "cat": "sports",
+    "formula": "Power = Rolling + Gravity + Aerodynamic Resistance"
+  },
+  {
+    "slug": "swimming-pace-calculator",
+    "name": "Swimming Pace per 100m",
+    "cat": "sports",
+    "formula": "Pace = (Time in Seconds ÷ Distance) × 100"
+  },
+  {
+    "slug": "baseball-calculator",
+    "name": "Baseball Batting Average & OPS",
+    "cat": "sports",
+    "formula": "BA = Hits ÷ At Bats, OPS = OBP + SLG"
+  },
+  {
+    "slug": "golf-handicap-calculator",
+    "name": "Golf Handicap Index",
+    "cat": "sports",
+    "formula": "Differential = (Score - Course Rating) × 113 ÷ Slope"
+  },
+  {
+    "slug": "basketball-true-shooting-calculator",
+    "name": "Basketball True Shooting %",
+    "cat": "sports",
+    "formula": "TS% = Points ÷ [2 × (FGA + 0.44 × FTA)]"
+  },
+  {
+    "slug": "passer-rating-calculator",
+    "name": "NFL Passer Rating Calculator",
+    "cat": "sports",
+    "formula": "NFL Formula: Sum of 4 Weighted Performance Caps"
+  },
+  {
+    "slug": "cricket-calculator",
+    "name": "Cricket Strike Rate & Economy",
+    "cat": "sports",
+    "formula": "Strike Rate = (Runs ÷ Balls) × 100"
+  },
+  {
+    "slug": "sport-calorie-calculator",
+    "name": "Sport Calorie Burn Sizer",
+    "cat": "sports",
+    "formula": "Calories = MET × Weight (kg) × Hours"
+  },
+  {
+    "slug": "negative-splits-calculator",
+    "name": "Negative Splits Pacing Tool",
+    "cat": "sports",
+    "formula": "Segment Pacing Splits Table"
+  },
+  {
+    "slug": "due-date-calculator",
+    "name": "Pregnancy Due Date Calculator",
+    "cat": "pregnancy-family",
+    "formula": "EDD = LMP + 280 Days"
+  },
+  {
+    "slug": "ovulation-calculator",
+    "name": "Ovulation & Fertility Window",
+    "cat": "pregnancy-family",
+    "formula": "Ovulation ≈ Next Period - 14 Days"
+  },
+  {
+    "slug": "chinese-gender-calculator",
+    "name": "Chinese Gender Predictor",
+    "cat": "pregnancy-family",
+    "formula": "Lunar Age & Conception Chart"
+  },
+  {
+    "slug": "child-height-calculator",
+    "name": "Child Adult Height Predictor",
+    "cat": "pregnancy-family",
+    "formula": "Boy: (Father + Mother + 5″)/2; Girl: (Father + Mother - 5″)/2"
+  },
+  {
+    "slug": "diaper-calculator",
+    "name": "Diaper Need & Budget Estimator",
+    "cat": "pregnancy-family",
+    "formula": "Daily Diapers × Price × Days"
+  },
+  {
+    "slug": "baby-growth-percentile-calculator",
+    "name": "Baby Growth Percentile (WHO)",
+    "cat": "pregnancy-family",
+    "formula": "WHO Infant Z-Score Distribution"
+  },
+  {
+    "slug": "college-savings-calculator",
+    "name": "529 College Savings Plan",
+    "cat": "pregnancy-family",
+    "formula": "Compound Growth with Tuition Inflation"
+  },
+  {
+    "slug": "sibling-age-gap-calculator",
+    "name": "Sibling Age Gap Calculator",
+    "cat": "pregnancy-family",
+    "formula": "Date Difference Equations"
+  },
+  {
+    "slug": "babysitter-pay-calculator",
+    "name": "Nanny & Babysitter Pay Rate",
+    "cat": "pregnancy-family",
+    "formula": "Pay = (Base Rate + Per Child Extra) × Hours"
+  },
+  {
+    "slug": "maternity-leave-calculator",
+    "name": "Maternity Leave Days Sizer",
+    "cat": "pregnancy-family",
+    "formula": "Leave Duration Timeline"
+  },
+  {
+    "slug": "401k-calculator",
+    "name": "401(k) Retirement with Employer Match",
+    "cat": "investment-savings",
+    "formula": "Compound Growth with Salary Scaled Match"
+  },
+  {
+    "slug": "roth-ira-calculator",
+    "name": "Roth IRA Calculator",
+    "cat": "investment-savings",
+    "formula": "Tax-Free Compounding Equation"
+  },
+  {
+    "slug": "hysa-calculator",
+    "name": "High-Yield Savings (HYSA)",
+    "cat": "investment-savings",
+    "formula": "A = P(1 + r/365)^(365·t)"
+  },
+  {
+    "slug": "cd-ladder-calculator",
+    "name": "CD (Certificate of Deposit) Ladder",
+    "cat": "investment-savings",
+    "formula": "Staggered Maturity Matrix"
+  },
+  {
+    "slug": "crypto-profit-calculator",
+    "name": "Crypto Profit & Loss Calculator",
+    "cat": "investment-savings",
+    "formula": "Profit = (Sell Price - Buy Price) × Coins - Fees"
+  },
+  {
+    "slug": "dca-calculator",
+    "name": "Dollar-Cost Averaging (DCA)",
+    "cat": "investment-savings",
+    "formula": "Avg Cost = Total Invested ÷ Total Shares Purchased"
+  },
+  {
+    "slug": "fire-calculator",
+    "name": "FIRE Number (Early Retirement)",
+    "cat": "investment-savings",
+    "formula": "FIRE Number = Annual Living Expenses × 25"
+  },
+  {
+    "slug": "drip-calculator",
+    "name": "Dividend Reinvestment (DRIP)",
+    "cat": "investment-savings",
+    "formula": "Compounded Share Accumulation"
+  },
+  {
+    "slug": "emergency-fund-calculator",
+    "name": "Emergency Fund Sizer (3-6 Months)",
+    "cat": "investment-savings",
+    "formula": "Emergency Fund = Monthly Must-Haves × Target Months"
+  },
+  {
+    "slug": "rule-of-72-calculator",
+    "name": "Rule of 72 Doubling Time",
+    "cat": "investment-savings",
+    "formula": "Years to Double ≈ 72 ÷ Interest Rate"
+  },
+  {
+    "slug": "cap-rate-calculator",
+    "name": "Real Estate Cap Rate",
+    "cat": "investment-savings",
+    "formula": "Cap Rate % = (Net Operating Income ÷ Property Price) × 100"
+  },
+  {
+    "slug": "rental-cash-flow-calculator",
+    "name": "Rental Cash Flow Calculator",
+    "cat": "investment-savings",
+    "formula": "Cash Flow = Gross Rent - All Operating Expenses - Mortgage"
+  },
+  {
+    "slug": "sp500-return-calculator",
+    "name": "S&P 500 Historical Growth",
+    "cat": "investment-savings",
+    "formula": "FV = P × (1 + 0.10)^t"
+  },
+  {
+    "slug": "tax-equivalent-yield-calculator",
+    "name": "Municipal Bond Tax-Equivalent Yield",
+    "cat": "investment-savings",
+    "formula": "TEY = Municipal Yield ÷ (1 - Marginal Tax Rate)"
+  },
+  {
+    "slug": "real-return-calculator",
+    "name": "Inflation-Adjusted Savings",
+    "cat": "investment-savings",
+    "formula": "Real Rate = [(1 + Nominal) ÷ (1 + Inflation)] - 1"
+  },
+  {
+    "slug": "discount-calculator",
+    "name": "Discount & Sale Price Calculator",
+    "cat": "percentage-discount",
+    "formula": "Sale Price = Original × (1 - Discount %)"
+  },
+  {
+    "slug": "tip-calculator",
+    "name": "Tip & Bill Split Calculator",
+    "cat": "percentage-discount",
+    "formula": "Total = Bill × (1 + Tip %) ÷ People"
+  },
+  {
+    "slug": "double-discount-calculator",
+    "name": "Double Discount Calculator",
+    "cat": "percentage-discount",
+    "formula": "Final = Original × (1 - d1) × (1 - d2)"
+  },
+  {
+    "slug": "percent-change-calculator",
+    "name": "Percentage Increase / Decrease",
+    "cat": "percentage-discount",
+    "formula": "% Change = [(New - Old) ÷ |Old|] × 100"
+  },
+  {
+    "slug": "percent-of-number-calculator",
+    "name": "Percentage of a Number",
+    "cat": "percentage-discount",
+    "formula": "Result = (X ÷ 100) × Y"
+  },
+  {
+    "slug": "markup-vs-margin-calculator",
+    "name": "Markup vs Margin Percentage",
+    "cat": "percentage-discount",
+    "formula": "Margin = Markup ÷ (1 + Markup)"
+  },
+  {
+    "slug": "percent-error-calculator",
+    "name": "Percent Error Calculator",
+    "cat": "percentage-discount",
+    "formula": "% Error = [|Experimental - Accepted| ÷ Accepted] × 100"
+  },
+  {
+    "slug": "reverse-percentage-calculator",
+    "name": "Reverse Percentage (Original Price)",
+    "cat": "percentage-discount",
+    "formula": "Original = Discounted Price ÷ (1 - Discount Rate)"
+  },
+  {
+    "slug": "fraction-to-percent-calculator",
+    "name": "Fraction to Percentage",
+    "cat": "percentage-discount",
+    "formula": "% = (Numerator ÷ Denominator) × 100"
+  },
+  {
+    "slug": "ratio-to-percent-calculator",
+    "name": "Ratio to Percentage Calculator",
+    "cat": "percentage-discount",
+    "formula": "% = [A ÷ (A + B)] × 100"
+  }
+]

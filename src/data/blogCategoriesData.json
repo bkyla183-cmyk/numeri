@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Finance",
+    "slug": "finance",
+    "description": "Guides on mortgages, loans, compound interest, retirement planning, and personal budgeting.",
+    "image": ""
+  },
+  {
+    "id": "2",
+    "name": "Health & Fitness",
+    "slug": "health-fitness",
+    "description": "Articles on BMI, TDEE calorie balance, body composition, hydration, and training pace.",
+    "image": ""
+  },
+  {
+    "id": "3",
+    "name": "Math & Science",
+    "slug": "math-science",
+    "description": "Explanations of percentages, scientific calculator functions, and metric-imperial conversions.",
+    "image": ""
+  },
+  {
+    "id": "4",
+    "name": "Education",
+    "slug": "education",
+    "description": "Academic planning guides covering GPA, study strategies, statistics, and scientific tools.",
+    "image": ""
+  },
+  {
+    "id": "5",
+    "name": "Everyday Guides",
+    "slug": "everyday-guides",
+    "description": "Practical how-to guides for tipping, currency conversion, pregnancy dates, and daily math.",
+    "image": ""
+  }
+]
