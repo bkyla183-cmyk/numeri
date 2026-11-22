@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
-const DEFAULT_PRODUCTION_URL = 'https://numeriq.web.app';
+const DEFAULT_PRODUCTION_URL = 'https://numeriq.github.io';
 const PLACEHOLDER_HOSTS = new Set([
   'numeriq.example',
   'example.com',
@@ -29,7 +29,7 @@ function resolveSitemapBaseUrl() {
   if (!raw) {
     if (isStrict) {
       throw new Error(
-        'SITE_URL is unset during PRODUCTION_BUILD=1. Set SITE_URL=https://numeriq.web.app before running build:production.'
+        'SITE_URL is unset during PRODUCTION_BUILD=1. Set SITE_URL=https://numeriq.github.io (or your custom domain) before running build:production.'
       );
     }
     return DEFAULT_PRODUCTION_URL;

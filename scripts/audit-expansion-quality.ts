@@ -15,8 +15,8 @@ const allCalcs: any[] = JSON.parse(
 const allCategories: any[] = JSON.parse(
   fs.readFileSync(path.resolve(rootDir, 'src/data/calcCategoriesData.json'), 'utf8')
 );
-const firebaseConfig = JSON.parse(
-  fs.readFileSync(path.resolve(rootDir, 'firebase.json'), 'utf8')
+const legacyRedirects: Array<{ source: string; destination: string; type: number }> = JSON.parse(
+  fs.readFileSync(path.resolve(rootDir, 'scripts/legacy-redirects.json'), 'utf8')
 );
 
 let passed = 0;
@@ -67,12 +67,12 @@ check(dupTitles.length === 0, `0 duplicate meta_title values`, dupTitles);
 check(dupDescs.length === 0, `0 duplicate meta_description values`, dupDescs);
 
 const redirectedSources = new Set<string>(
-  (firebaseConfig.hosting?.redirects || []).map((r: any) => String(r.source || ''))
+  legacyRedirects.map((r) => String(r.source || ''))
 );
 const redirectCollisions = allCalcs
   .filter((c) => redirectedSources.has(`/calculator/${c.slug}`))
   .map((c) => c.slug);
-check(redirectCollisions.length === 0, '0 collisions with legacy 301 redirect slugs in firebase.json', redirectCollisions);
+check(redirectCollisions.length === 0, '0 collisions with legacy 301 redirect slugs in legacy-redirects.json', redirectCollisions);
 
 // 2. Category Integrity
 const categorySlugSet = new Set(allCategories.map((cat) => cat.slug));

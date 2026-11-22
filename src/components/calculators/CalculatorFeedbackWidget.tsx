@@ -30,7 +30,7 @@ interface Props {
 }
 
 const FEEDBACK_STORAGE_KEY = 'numeriq_editorial_feedback';
-const EDITORIAL_EMAIL = 'editorial@numeriq.web.app';
+const EDITORIAL_EMAIL = 'editorial@numeriq.app';
 
 export const CalculatorFeedbackWidget: React.FC<Props> = ({
   calculatorSlug,

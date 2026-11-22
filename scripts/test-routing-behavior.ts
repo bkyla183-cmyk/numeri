@@ -42,7 +42,7 @@ function startTestServer(isSpaRewriteEnabled: boolean, port: number): Promise<ht
       if (isSpaRewriteEnabled) {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'text/html; charset=utf-8');
-        res.setHeader('X-Simulated-Routing', 'Firebase-SPA-Rewrite-To-Index');
+        res.setHeader('X-Simulated-Routing', 'Static-SPA-Fallback-To-Index');
         res.end(fs.readFileSync(path.join(distDir, 'index.html')));
       } else {
         res.statusCode = 404;
@@ -89,7 +89,7 @@ async function run() {
     { path: '/assets/nonexistent-image.png', desc: 'Missing Static Asset' },
   ];
 
-  console.log('--- PURE STATIC MODE (Current firebase.json omits catch-all ** rewrite, serving dist/404.html) ---');
+  console.log('--- PURE STATIC MODE (GitHub Pages serves prerendered pages cleanly and dist/404.html on unknown routes) ---');
   const serverStatic = await startTestServer(false, 5002);
   let failures = 0;
   for (const r of testRoutes) {

@@ -8,8 +8,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const distDir = path.resolve(rootDir, 'dist');
-const fbConfig = JSON.parse(fs.readFileSync(path.resolve(rootDir, 'firebase.json'), 'utf8'));
-const redirects: Array<{ source: string; destination: string; type: number }> = fbConfig.hosting?.redirects || [];
+const redirects: Array<{ source: string; destination: string; type: number }> = JSON.parse(
+  fs.readFileSync(path.resolve(rootDir, 'scripts/legacy-redirects.json'), 'utf8')
+);
 const expectedOrigin = resolveSiteUrl(true)!;
 
 console.log('================================================================');

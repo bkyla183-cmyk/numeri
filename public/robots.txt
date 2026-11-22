@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://numeriq.web.app/sitemap.xml
+Sitemap: https://numeriq.github.io/sitemap.xml

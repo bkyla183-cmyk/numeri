@@ -38,31 +38,24 @@ function extractJsonLdObjects(html: string): any[] {
 }
 
 // ----------------------------------------------------
-// TEST 1: Firebase Configuration Files
+// TEST 1: GitHub Pages & Static Hosting Configuration
 // ----------------------------------------------------
-console.log('🔥 1. Firebase Hosting Configuration');
-const firebaseJsonPath = path.resolve(rootDir, 'firebase.json');
-assert(fs.existsSync(firebaseJsonPath), 'firebase.json exists in root');
-if (fs.existsSync(firebaseJsonPath)) {
-  const fbConfig = JSON.parse(fs.readFileSync(firebaseJsonPath, 'utf8'));
-  assert(fbConfig.hosting?.public === 'dist', 'firebase.json public directory set to "dist"');
-  assert(fbConfig.hosting?.cleanUrls === true, 'firebase.json cleanUrls enabled');
-  const hasCatchAllRewrite = fbConfig.hosting?.rewrites?.some((r: any) => r.source === '**');
-  assert(!hasCatchAllRewrite, 'firebase.json catch-all rewrite omitted to prevent Soft 404s');
-  assert(fbConfig.hosting?.headers?.some((h: any) => h.source === '404.html'), 'firebase.json 404.html header configured with noindex');
-  const hasAssetHeaders = fbConfig.hosting?.headers?.some(
-    (h: any) => h.source.includes('assets') && h.headers?.some((hdr: any) => hdr.key === 'Cache-Control')
-  );
-  assert(hasAssetHeaders, 'firebase.json caching headers configured for dist assets');
-  const globalHeadersBlock = fbConfig.hosting?.headers?.find((h: any) => h.source === '**');
-  const globalHeaderKeys = new Set((globalHeadersBlock?.headers || []).map((hdr: any) => hdr.key));
+console.log('🚀 1. GitHub Pages & Static Hosting Configuration');
+assert(!fs.existsSync(path.resolve(rootDir, 'firebase.json')), 'firebase.json removed from root');
+assert(!fs.existsSync(path.resolve(rootDir, '.firebaserc')), '.firebaserc removed from root');
+const ghPagesWorkflowPath = path.resolve(rootDir, '.github/workflows/deploy-github-pages.yml');
+assert(fs.existsSync(ghPagesWorkflowPath), 'GitHub Pages deploy workflow exists');
+if (fs.existsSync(ghPagesWorkflowPath)) {
+  const wf = fs.readFileSync(ghPagesWorkflowPath, 'utf8');
   assert(
-    globalHeaderKeys.has('X-Content-Type-Options') &&
-      globalHeaderKeys.has('Referrer-Policy') &&
-      globalHeaderKeys.has('X-Frame-Options'),
-    'firebase.json global security headers configured (nosniff, Referrer-Policy, X-Frame-Options)'
+    wf.includes('actions/upload-pages-artifact') && wf.includes('actions/deploy-pages'),
+    'GitHub Pages workflow packages dist/ and deploys with actions/deploy-pages'
   );
+  assert(!/firebase/i.test(wf), 'GitHub Pages workflow contains 0 Firebase references');
 }
+assert(fs.existsSync(path.resolve(distDir, '.nojekyll')), 'dist/.nojekyll exists for GitHub Pages static serving');
+const redirectsJsonPath = path.resolve(rootDir, 'scripts/legacy-redirects.json');
+assert(fs.existsSync(redirectsJsonPath), 'scripts/legacy-redirects.json exists for consolidated slug checks');
 
 // ----------------------------------------------------
 // TEST 2: Static Prerendered HTML Coverage
