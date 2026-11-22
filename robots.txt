@@ -1,0 +1,7 @@
+# Numeriq – Practical Online Calculators & Knowledge Hub
+
+User-agent: *
+Allow: /
+
+# Canonical Sitemap Index
+Sitemap: https://bkyla183-cmyk.github.io/sitemap.xml

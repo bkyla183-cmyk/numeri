@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="theme-color" content="#0f766e" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>NPV, IRR &amp; Payback Period Calculator | Numeriq</title>
+    <meta name="description" content="Evaluate investment and corporate capital projects with Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index, and Discounted Payback." />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="author" content="Numeriq Editorial Team" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://bkyla183-cmyk.github.io/sitemap.xml" />
+
+    <!-- OpenGraph Social Sharing Cards -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Numeriq" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="NPV, IRR &amp; Payback Period Calculator | Numeriq" />
+    <meta property="og:description" content="Evaluate investment and corporate capital projects with Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index, and Discounted Payback." />
+    <meta property="og:image" content="https://bkyla183-cmyk.github.io/og-image.jpg" />
+    <meta property="og:image:width" content="1408" />
+    <meta property="og:image:height" content="768" />
+    <meta property="og:image:alt" content="NPV, IRR &amp; Payback Period Calculator | Numeriq" />
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NPV, IRR &amp; Payback Period Calculator | Numeriq" />
+    <meta name="twitter:description" content="Evaluate investment and corporate capital projects with Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index, and Discounted Payback." />
+    <meta name="twitter:image" content="https://bkyla183-cmyk.github.io/og-image.jpg" />
+    <meta name="twitter:image:alt" content="NPV, IRR &amp; Payback Period Calculator | Numeriq" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-5L2CaCL6.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-XKyaHtl9.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-lucide-Cv53oAMY.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-B1CP5ilx.js">
+    <link rel="modulepreload" crossorigin href="/assets/data-all-calculators-DgOmgOl1.js">
+    <link rel="modulepreload" crossorigin href="/assets/data-knowledge-posts-SZBdGRQo.js">
+    <link rel="modulepreload" crossorigin href="/assets/calculator-specs-batch4-C79AGoju.js">
+    <link rel="modulepreload" crossorigin href="/assets/calculator-specs-registry-DscX5WYp.js">
+    <link rel="modulepreload" crossorigin href="/assets/editorial-batch4-fin-z7fnsIy1.js">
+    <link rel="modulepreload" crossorigin href="/assets/editorial-batch4-math-cXKnFxgB.js">
+    <link rel="modulepreload" crossorigin href="/assets/editorial-batch4-health-Czn4pv-i.js">
+    <link rel="modulepreload" crossorigin href="/assets/editorial-core-and-faqs-DgXZf51-.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BuXZSmFO.css">
+    <link rel="canonical" href="https://bkyla183-cmyk.github.io/calculator/npv-irr-calculator" />
+  <meta property="og:url" content="https://bkyla183-cmyk.github.io/calculator/npv-irr-calculator" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://bkyla183-cmyk.github.io/calculator/npv-irr-calculator",
+      "name": "NPV, IRR & Payback Period Calculator",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "All",
+      "url": "https://bkyla183-cmyk.github.io/calculator/npv-irr-calculator",
+      "description": "Evaluate capital budgets with Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index (PI), Simple Payback, and Discounted Payback Period.",
+      "inLanguage": [
+        "en-US",
+        "en-GB",
+        "en-CA",
+        "en-AU"
+      ],
+      "dateModified": "2026-11-19",
+      "author": {
+        "@type": "Organization",
+        "name": "Numeriq Corporate Finance Editorial Team"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Numeriq",
+        "url": "https://bkyla183-cmyk.github.io/"
+      },
+      "publishingPrinciples": "https://bkyla183-cmyk.github.io/about",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": "Formula: NPV = −I₀ + Σ CF_t ÷ (1 + WACC)^t | IRR: NPV(IRR) = 0 | PI = PV(Inflows) ÷ I₀"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://bkyla183-cmyk.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Calculators",
+          "item": "https://bkyla183-cmyk.github.io/calculators"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tax, Salary & Business",
+          "item": "https://bkyla183-cmyk.github.io/category/business-tax"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "NPV, IRR & Payback Period Calculator",
+          "item": "https://bkyla183-cmyk.github.io/calculator/npv-irr-calculator"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 min-h-screen antialiased selection:bg-teal-500 selection:text-white">
+    <div id="root">
+        <article class="max-w-4xl mx-auto px-4 py-8">
+          <nav class="text-xs text-slate-500 mb-4 flex items-center gap-1.5 flex-wrap">
+            <a href="/">Home</a> / <a href="/calculators">Calculators</a> / <a href="/category/business-tax">Tax, Salary &amp; Business</a> / <span class="font-semibold text-slate-800">NPV, IRR &amp; Payback Period Calculator</span>
+          </nav>
+
+          <header class="border-b border-slate-200 pb-5 mb-6">
+            <span class="text-xs font-semibold text-teal-600 uppercase tracking-wider">Tax, Salary &amp; Business · Double-Precision Tool</span>
+            <h1 class="text-3xl font-extrabold text-slate-900 mt-1">NPV, IRR &amp; Payback Period Calculator</h1>
+            <p class="text-slate-600 text-sm mt-2 leading-relaxed">Evaluate capital budgets with Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index (PI), Simple Payback, and Discounted Payback Period.</p>
+            <div class="mt-3 p-3 rounded-lg bg-slate-100 font-mono text-xs text-indigo-700">Formula: NPV = −I₀ + Σ CF_t ÷ (1 + WACC)^t | IRR: NPV(IRR) = 0 | PI = PV(Inflows) ÷ I₀</div>
+          </header>
+
+          <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-xs mb-8">
+            <h2 class="text-base font-bold text-slate-900 mb-3">Calculator Parameters</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+              
+      <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+        <label class="block text-xs font-semibold text-slate-700">Initial Outlay at Year 0 (I₀, positive $)</label>
+        <span class="text-xs text-slate-500">Default: 100000 $</span>
+      </div>
+    
+
+      <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+        <label class="block text-xs font-semibold text-slate-700">Discount Rate / WACC Hurdle (%)</label>
+        <span class="text-xs text-slate-500">Default: 10 %</span>
+      </div>
+    
+
+      <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+        <label class="block text-xs font-semibold text-slate-700">Year 1 Net Cash Flow</label>
+        <span class="text-xs text-slate-500">Default: 28000 $</span>
+      </div>
+    
+
+      <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+        <label class="block text-xs font-semibold text-slate-700">Year 2 Net Cash Flow</label>
+        <span class="text-xs text-slate-500">Default: 34000 $</span>
+      </div>
+    
+
+      <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+        <label class="block text-xs font-semibold text-slate-700">Year 3 Net Cash Flow</label>
+        <span class="text-xs text-slate-500">Default: 38000 $</span>
+      </div>
+    
+
+      <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+        <label class="block text-xs font-semibold text-slate-700">Year 4 Net Cash Flow</label>
+        <span class="text-xs text-slate-500">Default: 40000 $</span>
+      </div>
+    
+
+      <div class="p-3 bg-slate-50 rounded-lg border border-slate-200">
+        <label class="block text-xs font-semibold text-slate-700">Year 5 Net Cash Flow (incl. Salvage)</label>
+        <span class="text-xs text-slate-500">Default: 42000 $</span>
+      </div>
+    
+            </div>
+            <p class="text-xs text-slate-500">Executing client-side IEEE 754 double precision interactive computation...</p>
+          </div>
+
+          
+      <section class="mt-8 border-t border-slate-200 pt-6 space-y-6">
+        <div>
+          <h2 class="text-xl font-bold text-slate-900 mb-2">How It Works &amp; Mathematical Principles</h2>
+          <p class="text-sm text-slate-700 leading-relaxed mb-3">The NPV, IRR &amp; Payback Period Calculator evaluates 5-year capital budgeting projects—computing Net Present Value (NPV), Internal Rate of Return (IRR via numerical root-finding), Profitability Index (PI), Simple Payback, and Discounted Payback against your WACC hurdle rate.</p>
+          <p class="text-sm text-slate-700 leading-relaxed">Net Present Value (NPV) measures absolute dollar wealth created above your cost of capital (WACC), whereas Internal Rate of Return (IRR) finds the exact discount rate where NPV equals zero. Using both alongside Profitability Index and Discounted Payback prevents misranking mutually exclusive projects of different scales.</p>
+        </div>
+
+        
+          <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-2">
+            <span class="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">Governing Equation</span>
+            <div class="font-mono text-xs sm:text-sm text-indigo-700 bg-white p-3 rounded-lg border border-slate-200">NPV = −I₀ + Σ CF_t ÷ (1 + r)^t   |   NPV(IRR) = 0   |   PI = PV(Inflows) ÷ I₀</div>
+          </div>
+        
+
+        
+          <div>
+            <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-2">Variable Definitions &amp; Units</h3>
+            <table class="w-full text-left text-xs border border-slate-200 rounded-lg overflow-hidden">
+              <thead class="bg-slate-50 text-slate-500"><tr><th class="p-2">Variable</th><th class="p-2">Name</th><th class="p-2">Unit</th></tr></thead>
+              <tbody class="divide-y divide-slate-100"><tr><td class="p-2 font-mono font-bold text-indigo-600">I₀</td><td class="p-2">Initial Year-0 Outlay</td><td class="p-2 text-slate-500">$</td></tr><tr><td class="p-2 font-mono font-bold text-indigo-600">r</td><td class="p-2">Discount Rate / WACC</td><td class="p-2 text-slate-500">%</td></tr><tr><td class="p-2 font-mono font-bold text-indigo-600">PI</td><td class="p-2">Profitability Index</td><td class="p-2 text-slate-500">x</td></tr></tbody>
+            </table>
+          </div>
+        
+
+        
+          <div class="p-5 border border-indigo-100 bg-indigo-50/40 rounded-xl space-y-2">
+            <h3 class="font-bold text-xs uppercase tracking-wider text-indigo-900">Step-by-Step Worked Calculation Example</h3>
+            
+    <div class="space-y-2 text-xs">
+      <p class="font-medium text-slate-800"><strong>Scenario:</strong> Evaluating a $100,000 capital investment at a 10.0% WACC hurdle generating Years 1–5 cash flows of $28,000, $34,000, $38,000, $40,000, and $42,000.</p>
+      <ul class="list-disc pl-4 space-y-1"><li>PV of Inflows @ 10%: $25,454.55 + $28,099.17 + $28,549.96 + $27,320.54 + $26,078.70 = $135,502.92.</li><li>Net Present Value (NPV) = $135,502.92 − $100,000.00 = +$35,502.92 (Profitability Index = 1.355x → Accept).</li><li>Solving NPV(r) = 0 gives IRR = 22.14% (+12.14% spread above the 10% hurdle).</li><li>Simple Payback = 3.00 years ($28k + $34k + $38k = $100k); Discounted Payback = 3.66 years.</li></ul>
+      <p class="font-semibold text-indigo-700"><strong>Result:</strong> +$35,502.92 NPV | 22.14% IRR | 1.355x PI (Accept Project)</p>
+      <p class="text-slate-600 italic">The investment generates $35,502.92 of economic value above a 10% cost of capital, returning invested capital in 3.66 discounted years.</p>
+    </div>
+  
+          </div>
+        
+
+        
+          <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-2">
+            <h3 class="font-bold text-slate-900 uppercase tracking-wider">Regional Standards &amp; Units</h3>
+            <p class="text-slate-600">Currency-universal corporate finance and project-investment valuation standard:</p>
+            <ul class="space-y-1.5">
+              <li><strong>Global Corporate Finance:</strong> CFA/GAAP discounted cash flow (DCF), NPV, IRR, Profitability Index, and Discounted Payback. (USD / GBP / CAD / AUD) [2026]</li>
+            </ul>
+          </div>
+        
+
+        
+    <div class="p-4 bg-amber-50/60 border border-amber-200 rounded-xl text-xs space-y-2">
+      <h3 class="font-bold text-amber-900 uppercase tracking-wider">Using Simple Payback Period Without Time-Value Discounting</h3>
+      <p class="text-amber-800 leading-relaxed">Simple payback treats $40,000 received in Year 4 identically to $40,000 received today; always check NPV and Discounted Payback.</p>
+    </div>
+  
+
+        
+          <div class="p-4 bg-white border border-slate-200 rounded-xl text-xs space-y-2">
+            <h3 class="font-bold text-slate-900 uppercase tracking-wider">Authoritative Sources &amp; References</h3>
+            <ul class="list-disc pl-4 space-y-1.5 text-slate-700">
+              <li><a href="https://corporatefinanceinstitute.com/resources/valuation/net-present-value-npv/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 underline font-semibold">Net Present Value (NPV) &amp; IRR Capital Budgeting</a> — Corporate Finance Institute (CFI) (2026): DCF discounting, NPV &gt; 0 rule, and IRR pitfalls.</li>
+            </ul>
+          </div>
+        
+
+        <div class="p-5 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-2">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <h3 class="font-bold text-slate-900 uppercase tracking-wider">Methodology, Verification &amp; Limitations</h3>
+            <span class="font-mono text-slate-500">Verified: 2026-11-19 · 2026 Corporate Finance DCF Standards</span>
+          </div>
+          <p class="text-slate-700"><strong>Numeriq Corporate Finance Editorial Team</strong> · Reviewed by Numeriq Quantitative Validation Desk</p>
+          <p class="text-slate-600">Discounts discrete end-of-year cash flows CF₁..CF₅ at WACC, solves IRR where NPV(r) = 0 across [-95%, +500%], and interpolates exact simple and discounted payback years.</p>
+          <ul class="list-disc pl-4 space-y-1 text-slate-600"><li>Supports up to 5 discrete annual periods (CF₁–CF₅); projects with multiple sign flips can exhibit multiple IRRs (none returned if unbracketed).</li><li>Assumes end-of-year cash flow timing and constant WACC across all 5 years.</li></ul>
+          <p class="text-slate-500 pt-1 border-t border-slate-200"><strong>Non-Advice Notice:</strong> Educational capital-budgeting model only; commercial investments require sensitivity, tax-depreciation, and risk-adjusted WACC analysis. · <a href="/about" class="text-indigo-600 underline">Editorial Standards</a> · <a href="/disclaimer" class="text-indigo-600 underline">Disclaimers</a></p>
+        </div>
+      </section>
+    
+          
+      <section class="mt-8 border-t border-slate-200 pt-6">
+        <h2 class="text-xl font-bold text-slate-900 mb-4">Frequently Asked Questions</h2>
+        <div class="space-y-3">
+          
+            <details class="p-4 rounded-xl border border-slate-200 bg-white">
+              <summary class="font-semibold text-sm text-slate-900 cursor-pointer">When NPV and IRR disagree on mutually exclusive capital projects, which metric wins?</summary>
+              <p class="mt-2 text-xs text-slate-600 leading-relaxed">Always follow Net Present Value (NPV). IRR assumes intermediate cash inflows reinvest at the project’s own IRR—which can exaggerate small, fast-payback projects—whereas NPV measures exact absolute dollar wealth created above your WACC hurdle rate.</p>
+            </details>
+          
+
+            <details class="p-4 rounded-xl border border-slate-200 bg-white">
+              <summary class="font-semibold text-sm text-slate-900 cursor-pointer">Why does Discounted Payback Period take longer than Simple Payback Period?</summary>
+              <p class="mt-2 text-xs text-slate-600 leading-relaxed">Simple Payback sums nominal future cash flows without discounting for time value of money. Discounted Payback shrinks each future year’s cash flow by (1 + WACC)^t before checking when initial capital I₀ is recovered.</p>
+            </details>
+          
+
+            <details class="p-4 rounded-xl border border-slate-200 bg-white">
+              <summary class="font-semibold text-sm text-slate-900 cursor-pointer">How should I interpret Profitability Index (PI)?</summary>
+              <p class="mt-2 text-xs text-slate-600 leading-relaxed">Profitability Index equals (NPV + Initial Investment) ÷ Initial Investment. Projects with PI &gt; 1.0x create positive value above the hurdle rate, making PI ideal for ranking competing investments under tight capital budgets.</p>
+            </details>
+          
+        </div>
+      </section>
+    
+          
+      <section class="mt-8 border-t border-slate-200 pt-6 space-y-4">
+        
+          <div>
+            <h3 class="text-base font-bold text-slate-900 mb-2">More Tax, Salary &amp; Business Tools</h3>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+              <li><a href="/calculator/gross-margin-calculator" class="text-indigo-700 font-medium hover:underline">Gross Margin Calculator</a></li>
+<li><a href="/calculator/income-tax-calculator" class="text-indigo-700 font-medium hover:underline">Federal Income Tax (2024 &amp; 2025)</a></li>
+<li><a href="/calculator/sales-tax-calculator" class="text-indigo-700 font-medium hover:underline">Sales Tax Calculator</a></li>
+<li><a href="/calculator/hourly-to-salary-calculator" class="text-indigo-700 font-medium hover:underline">Hourly to Annual Salary</a></li>
+<li><a href="/calculator/salary-to-hourly-calculator" class="text-indigo-700 font-medium hover:underline">Salary to Hourly Wage</a></li>
+<li><a href="/calculator/take-home-pay-calculator" class="text-indigo-700 font-medium hover:underline">Take-Home Pay Estimator</a></li>
+            </ul>
+          </div>
+        
+        
+          <div>
+            <h3 class="text-base font-bold text-slate-900 mb-2">Related Knowledge Hub Guides</h3>
+            <ul class="space-y-1 text-xs">
+              <li><a href="/guide/roi-calculator-investment-returns-guide" class="text-teal-700 font-medium hover:underline">ROI Calculator: How to Measure the Return on Any Investment</a></li>
+<li><a href="/guide/compound-interest-explained-8th-wonder" class="text-teal-700 font-medium hover:underline">Compound Interest Explained: The 8th Wonder of the World</a></li>
+            </ul>
+          </div>
+        
+      </section>
+    
+          
+  <footer class="mt-12 pt-6 border-t border-slate-200 text-xs text-slate-500 flex flex-wrap items-center justify-between gap-4">
+    <span>&copy; 2026 Numeriq. Double-precision browser calculators &amp; educational reference guides.</span>
+    <nav aria-label="Legal and Editorial" class="flex flex-wrap items-center gap-4">
+      <a href="/calculators" class="hover:underline text-slate-600">All Calculators</a>
+      <a href="/categories" class="hover:underline text-slate-600">Categories</a>
+      <a href="/blog" class="hover:underline text-slate-600">Knowledge Hub</a>
+      <a href="/about" class="hover:underline text-slate-600">About &amp; Standards</a>
+      <a href="/privacy" class="hover:underline text-slate-600">Privacy Policy</a>
+      <a href="/terms" class="hover:underline text-slate-600">Terms of Service</a>
+      <a href="/disclaimer" class="hover:underline text-slate-600">Disclaimers</a>
+      <a href="/contact" class="hover:underline text-slate-600">Contact</a>
+    </nav>
+  </footer>
+
+        </article>
+      </div>
+  </body>
+</html>
